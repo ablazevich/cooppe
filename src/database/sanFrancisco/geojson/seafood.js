@@ -363,6 +363,18 @@ const seafood = {
         coordinates: [37.771977,-122.405048]
       }
     },
+    {
+      properties: {
+        tag: "Crab House (SE)",
+        popUp: false,
+        description: "",
+        link: "http://bellotasf.com/"
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [37.771977,-122.405048]
+      }
+    },
   ]
 };
 
