@@ -1,477 +1,508 @@
 // http://geojson.io/#map=2/20.0/0.0
 
-const seafood = {
+const barsPubs = {
   center: [37.77722770873696,-122.44657516479493],
           
   markers: [
     {
       properties: {
-        tag: "Alioto’s Restaurant (SM)",
+        tag: "ABV (Cocktails)",
         popUp: false,
         description: "",
+        link: "https://www.abvsf.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.809461,-122.41672]
+        coordinates: [37.765043,-122.423576]
       }
     },
     {
       properties: {
-        tag: "Baonecci Ristorante (SM)",
+        tag: "Bar 587 (Cocktails)",
         popUp: false,
         description: "",
-        link: "https://www.caffebaonecci.com/"
+        link: "http://www.bar587.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.799838,-122.407806]
+        coordinates: [37.787766,-122.411405]
       }
     },
     {
       properties: {
-        tag: "Bistro At The Cliff House (SM)",
+        tag: "Black Hammer Brewing",
         popUp: false,
         description: "",
-        link: "https://cliffhouse.com/"
+        link: "https://blackhammerbrewing.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.778507,-122.513981]
+        coordinates: [37.780704,-122.39706]
       }
     },
     {
       properties: {
-        tag: "Caffe Sport (SM)",
+        tag: "Blackbird",
         popUp: false,
         description: "",
-        link: "https://www.caffesportsf.com/"
+        link: "http://www.blackbirdbar.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.799676,-122.408708]
+        coordinates: [37.767318,-122.429615]
       }
     },
     {
       properties: {
-        tag: "Cioppino’s (SM)",
+        tag: "Bloodhound (Cocktails)",
         popUp: false,
         description: "",
-        link: "http://cioppinos.letseat.at/"
+        link: "https://bloodhoundsf.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.808039,-122.41934]
+        coordinates: [37.775815,-122.408818]
       }
     },
     {
       properties: {
-        tag: "Fog Harbor Fish House (SM)",
+        tag: "Bluxome Street Winery",
         popUp: false,
         description: "",
-        link: "https://fogharbor.com/"
+        link: "http://www.bluxomewinery.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.808673,-122.409821]
+        coordinates: [37.776729,-122.396853]
       }
     },
     {
       properties: {
-        tag: "Great Eastern Restaurant (SM)",
+        tag: "Bodega",
         popUp: false,
         description: "",
-        link: "http://www.greateasternsf.com/"
+        link: "https://www.bodegasf.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.795998,-122.405954]
+        coordinates: [37.801339,-122.411394]
       }
     },
     {
       properties: {
-        tag: "Hog Island Oyster Co. (SM)",
+        tag: "Bow Bow Cocktail Lounge",
         popUp: false,
         description: "",
-        link: "https://hogislandoysters.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.79557,-122.393321]
+        coordinates: [37.797563,-122.407109]
       }
     },
     {
       properties: {
-        tag: "Mission Street Oyster Bar & Seafood Restaurant (SM)",
+        tag: "Buddha Lounge",
         popUp: false,
         description: "",
-        link: "http://missionstreetoysterbarsf.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.760565,-122.419556]
+        coordinates: [37.795279,-122.40667]
       }
     },
     {
       properties: {
-        tag: "Original Joe’s (SM)",
+        tag: "CC's Cocktails",
         popUp: false,
         description: "",
-        link: "http://originaljoessf.com/north-beach/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.800249,-122.40934]
+        coordinates: [37.798949,-122.441294]
       }
     },
     {
       properties: {
-        tag: "Pacific Cafe (SM)",
+        tag: "Comstock Saloon",
         popUp: false,
         description: "",
-        link: "https://www.pacificcafesf.com/"
+        link: "https://comstocksaloon.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.779907,-122.494551]
+        coordinates: [37.79693,-122.405562]
       }
     },
     {
       properties: {
-        tag: "Pacific Catch (SM)",
+        tag: "Durty Nelly’s",
         popUp: false,
         description: "",
-        link: "https://pacificcatch.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.80061,-122.436687]
+        coordinates: [37.763471,-122.483055]
       }
     },
     {
       properties: {
-        tag: "Pacific Catch (SM)",
+        tag: "Fat Angel",
         popUp: false,
         description: "",
-        link: "https://pacificcatch.com/"
+        link: "http://www.fatangelsf.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.765697,-122.466229]
+        coordinates: [37.783402,-122.433208]
       }
     },
     {
       properties: {
-        tag: "Pier 23 Cafe (SM)",
+        tag: "Hawthorn (Cocktails)",
         popUp: false,
         description: "",
-        link: "http://pier23cafe.com/"
+        link: "https://hawthornsf.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.803367,-122.400897]
+        coordinates: [37.787992,-122.404294]
       }
     },
     {
       properties: {
-        tag: "Pier Market Seafood Restaurant (SM)",
+        tag: "Hobson’s Choice",
         popUp: false,
         description: "",
-        link: "https://piermarket.com/"
+        link: "http://www.hobsonschoice.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.808673,-122.409821]
+        coordinates: [37.769656,-122.448672]
       }
     },
     {
       properties: {
-        tag: "Plouf (SM)",
+        tag: "Hopwater Distribution (Beer)",
         popUp: false,
         description: "",
-        link: "http://www.ploufsf.com/"
+        link: "http://www.hopwaterdistribution.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.791323,-122.403648]
+        coordinates: [37.790047,-122.411353]
       }
     },
     {
       properties: {
-        tag: "PPQ Dungeness Island (SM)",
+        tag: "House of Shields",
         popUp: false,
         description: "",
-        link: "http://ppqcrab.com/"
+        link: "http://www.thehouseofshields.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.782309,-122.48447]
+        coordinates: [37.788274,-122.401308]
       }
     },
     {
       properties: {
-        tag: "R&G Lounge (SM)",
+        tag: "Ho’s Bootleg Tavern (Sports bar)",
         popUp: false,
         description: "",
-        link: "http://rnglounge.com/"
+        link: "https://www.bootlegbarsf.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.79409,-122.404925]
+        coordinates: [37.797532,-122.423499]
       }
     },
     {
       properties: {
-        tag: "Skool (SM)",
+        tag: "Li Po Cocktail Lounge",
         popUp: false,
         description: "",
-        link: "http://skoolsf.com/"
+        link: "http://lipolounge.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.768521,-122.402286]
+        coordinates: [37.795424,-122.406434]
       }
     },
     {
       properties: {
-        tag: "Sotto Mare (SM)",
+        tag: "Liquid Gold (Beer)",
         popUp: false,
         description: "",
-        link: "https://www.sottomaresf.com/"
+        link: "http://www.liquidgoldsf.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.799798,-122.408342]
+        coordinates: [37.790603,-122.417112]
       }
     },
     {
       properties: {
-        tag: "Swan Oyster Depot (SM)",
+        tag: "Local Edition (Cocktails)",
         popUp: false,
         description: "",
-        link: "http://swanoysterdepot.us/"
+        link: "http://localeditionsf.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.790831,-122.420964]
+        coordinates: [37.787588,-122.403189]
       }
     },
     {
       properties: {
-        tag: "The Stinking Rose (SM)",
+        tag: "Mikkeller Bar",
         popUp: false,
         description: "",
-        link: "https://thestinkingrose.com/sf/index.html"
+        link: "http://www.mikkellerbar.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.798114,-122.40757]
+        coordinates: [37.783952,-122.409059]
       }
     },
     {
       properties: {
-        tag: "Tommaso’s Ristorante Italiano (SM)",
+        tag: "Mr Tipple’s Recording Studio (Cocktails)",
         popUp: false,
         description: "",
-        link: "http://www.tommasos.com/"
+        link: "http://mrtipplessf.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.797791,-122.405291]
+        coordinates: [37.776358,-122.418533]
       }
     },
     {
       properties: {
-        tag: "Woodhouse Fish Company (SM)",
+        tag: "Novela (Cocktails)",
         popUp: false,
         description: "",
-        link: "http://woodhousefish.com/"
+        link: "http://www.novelasf.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.78747,-122.433396]
+        coordinates: [37.787091,-122.401353]
       }
     },
     {
       properties: {
-        tag: "Woodhouse Fish Company (SM)",
+        tag: "Pacific Cocktail Haven",
         popUp: false,
         description: "",
-        link: "http://woodhousefish.com/"
+        link: "http://www.pacificcocktailsf.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.767596,-122.428487]
+        coordinates: [37.789266,-122.40996]
       }
     },
     {
       properties: {
-        tag: "Z & Y Restaurant (SM)",
+        tag: "robberbaron (Wine)",
         popUp: false,
         description: "",
-        link: "http://www.zandyrestaurant.com/en/index.html"
+        link: "https://www.robberbaronsf.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.795924,-122.406004]
+        coordinates: [37.795541,-122.421503]
       }
     },
     {
       properties: {
-        tag: "Anchor & Hope (SE)",
+        tag: "Specs' Twelve Adler Museum Cafe",
         popUp: false,
         description: "",
-        link: "http://www.anchorandhopesf.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.787768,-122.398786]
+        coordinates: [37.797625,-122.405973]
       }
     },
     {
       properties: {
-        tag: "Anchor Oyster Bar (SE)",
+        tag: "Stookey’s Club Moderne (Cocktails)",
         popUp: false,
         description: "",
-        link: "http://www.anchoroysterbar.com/"
+        link: "http://www.stookeysclubmoderne.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.759702,-122.434707]
+        coordinates: [37.789623,-122.411917]
       }
     },
     {
       properties: {
-        tag: "Bar Crudo (SE)",
+        tag: "Sugar Lounge (Cocktails)",
         popUp: false,
         description: "",
-        link: "http://barcrudo.com/"
+        link: "http://sugarloungesf.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.775683,-122.438211]
+        coordinates: [37.776763,-122.422502]
       }
     },
     {
       properties: {
-        tag: "Bellota (SE)",
+        tag: "The Alembic",
         popUp: false,
         description: "",
-        link: "http://bellotasf.com/"
+        link: "http://alembicsf.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.771977,-122.405048]
+        coordinates: [37.769322,-122.45112]
       }
     },
     {
       properties: {
-        tag: "Crab House (SE)",
+        tag: "The Black Horse London Pub",
         popUp: false,
         description: "",
-        link: "https://www.crabhouse39.com/"
+        link: "http://www.blackhorselondon.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.809398,-122.410355]
+        coordinates: [37.798627,-122.424499]
       }
     },
     {
       properties: {
-        tag: "Franciscan Crab Restaurant (SE)",
+        tag: "The Fly Trap",
         popUp: false,
         description: "",
-        link: "https://www.franciscanrestaurant.com/"
+        link: "http://flytrapsf.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.809041,-122.414528]
+        coordinates: [37.785485,-122.397216]
       }
     },
     {
       properties: {
-        tag: "La Mar Cebichería Peruana (SE)",
+        tag: "The Hidden Vine (Wine)",
         popUp: false,
         description: "",
-        link: "http://lamarsf.com/"
+        link: "https://www.thehiddenvine.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.797289,-122.395152]
+        coordinates: [37.795593,-122.400755]
       }
     },
     {
       properties: {
-        tag: "Liholiho Yacht Club (SE)",
+        tag: "The Interval At Long Now (Cocktails)",
         popUp: false,
         description: "",
-        link: "http://liholihoyachtclub.com/"
+        link: "https://theinterval.org/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.788235,-122.414583]
+        coordinates: [37.806603,-122.432167]
       }
     },
     {
       properties: {
-        tag: "Scoma’s Restaurant (SE)",
+        tag: "The Monk’s Kettle",
         popUp: false,
         description: "",
-        link: "https://scomas.com/"
+        link: "https://monkskettle.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.808932,-122.418433]
+        coordinates: [37.764721,-122.422986]
       }
     },
     {
       properties: {
-        tag: "Seven Hills (SE)",
+        tag: "The Page",
         popUp: false,
         description: "",
-        link: "http://sevenhillssf.com/"
+        link: "http://www.thepagebar.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.795307,-122.418078]
+        coordinates: [37.772132,-122.436926]
       }
     },
     {
       properties: {
-        tag: "Tadich Grill (SE)",
+        tag: "The Saloon (Dive bar)",
         popUp: false,
         description: "",
-        link: "https://tadichgrillsf.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.79342,-122.399466]
+        coordinates: [37.798587,-122.407023]
       }
     },
     {
       properties: {
-        tag: "Thanh Long (SE)",
+        tag: "The Social Study (Wine)",
         popUp: false,
         description: "",
-        link: "http://thanhlongsf.com/"
+        link: "http://www.thesocialstudysf.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.760164,-122.50609]
+        coordinates: [37.784153,-122.432457]
       }
     },
     {
       properties: {
-        tag: "Waterbar (SE)",
+        tag: "The Sycamore",
         popUp: false,
         description: "",
-        link: "http://www.waterbarsf.com/"
+        link: "http://www.thesycamoresf.com/"
       },
       geometry: {
         type: "Point",
-        coordinates: [37.790548,-122.389072]
+        coordinates: [37.762763,-122.419799]
+      }
+    },
+    {
+      properties: {
+        tag: "Topsy’s Fun House (Cocktails)",
+        popUp: false,
+        description: "",
+        link: "http://www.topsyssf.com/"
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [37.790605,-122.403793]
+      }
+    },
+    {
+      properties: {
+        tag: "Toronado Pub",
+        popUp: false,
+        description: "",
+        link: "http://www.toronado.com/"
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [37.77183,-122.43113]
+      }
+    },
+    {
+      properties: {
+        tag: "Zeitgeist (Dive bar)",
+        popUp: false,
+        description: "",
+        link: "http://www.zeitgeistsf.com/"
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [37.770028,-122.422098]
       }
     }
   ]
 };
 
-export default seafood;
+export default barsPubs;

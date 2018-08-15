@@ -25,7 +25,9 @@ import pizzaMap from "./urls/Pizza";
 
 import seafoodMap from "./urls/Seafood";
 
+import steakhousesMap from "./urls/Steakhouses";
+
 // Add every inner page created for this section
-const inRestaurantsSanFrancisco = [inexpensiveMap, moderateMap, expensiveMap, highEndMap, michelinRatedMap, americanMap, chineseMap, indianMap, italianMap, japaneseMap, mexicanMap, pizzaMap, seafoodMap];
+const inRestaurantsSanFrancisco = [inexpensiveMap, moderateMap, expensiveMap, highEndMap, michelinRatedMap, americanMap, chineseMap, indianMap, italianMap, japaneseMap, mexicanMap, pizzaMap, seafoodMap, steakhousesMap];
 
 export default inRestaurantsSanFrancisco;

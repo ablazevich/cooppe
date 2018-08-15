@@ -1,6 +1,12 @@
 // React
 import React from "react";
 
+// Router
+import { Link } from "react-router-dom";
+
+// Material UI components
+import FlatButton from "material-ui/FlatButton";
+
 // Style
 import { Paragraph, A } from "../../textStyle";
 
@@ -26,7 +32,20 @@ const drinksAndEntertainmentSanFrancisco = (
       YakiniQ Cafe and{" "}
       <A href="http://zo11coffee.com/" target="_blank" rel="noopener noreferrer">Zo11 Coffee</A>.
     </Paragraph>
-    
+
+    <Paragraph>
+    <Link to="/san-francisco/coffee-tea">
+      <FlatButton
+        style={{
+          backgroundColor: "lightgrey",
+          fontWeight: "500"
+        }}
+      >
+        MAP
+      </FlatButton>
+    </Link>
+    </Paragraph>
+
     <h3>Bars and Pubs</h3>
     <Paragraph>
       <A href="https://www.abvsf.com/" target="_blank" rel="noopener noreferrer">ABV</A>{" "}(Cocktails),{" "}
@@ -73,10 +92,20 @@ const drinksAndEntertainmentSanFrancisco = (
       and{" "}
       <A href="http://www.zeitgeistsf.com/" target="_blank" rel="noopener noreferrer">Zeitgeist</A>{" "}(Dive bar).
     </Paragraph>
-    <Paragraph>
-      <A href="bars.html">Map</A>
-    </Paragraph>
     
+    <Paragraph>
+    <Link to="/san-francisco/bars-pubs">
+      <FlatButton
+        style={{
+          backgroundColor: "lightgrey",
+          fontWeight: "500"
+        }}
+      >
+        MAP
+      </FlatButton>
+    </Link>
+    </Paragraph>
+
     <h3>Clubs and Lounges</h3>
     <Paragraph>
       <A href="https://audiosf.com/" target="_blank" rel="noopener noreferrer">Audio Discotech</A>,{" "}
@@ -103,9 +132,20 @@ const drinksAndEntertainmentSanFrancisco = (
       and{" "}
       <A href="http://www.theindependentsf.com/" target="_blank" rel="noopener noreferrer">The Independent</A>.
     </Paragraph>
+
     <Paragraph>
-      <A href="clubs.html">Map</A>
+    <Link to="/san-francisco/clubs-lounges">
+      <FlatButton
+        style={{
+          backgroundColor: "lightgrey",
+          fontWeight: "500"
+        }}
+      >
+        MAP
+      </FlatButton>
+    </Link>
     </Paragraph>
+
   </div>
 	);
 

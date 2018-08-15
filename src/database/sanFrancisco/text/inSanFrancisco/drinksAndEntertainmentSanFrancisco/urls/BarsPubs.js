@@ -8,38 +8,36 @@ import { Paragraph, A } from "../../../../../textStyle";
 import Cartography from "../../../../../../components/Cartography";
 
 // GeoJSON
-import alcatraz from "../../../../geojson/alcatraz";
+import barsPubs from "../../../../geojson/barsPubs";
 
 // Images
 import marker from "../../../../../../assets/marker.svg";
 
 // URL of this page
-const url = "/san-francisco/example-map444";
+const url = "/san-francisco/bars-pubs";
 
 // URL of the page the user will be sent when hitting back
 const back = "/san-francisco";
 
 // Body title
-const title = "Example in Drinks And Entertainment Map";
+const title = "Bars and Pubs";
 
 // Page title, must be 50–60 characters and unique across the site (optimal SEO length)
-const titleTag = "Example in Drinks And Entertainment Map Title tag";
+const titleTag = "Example in Where To Stay Map Title tag";
 
 // Page description, must be 50–300 characters and unique across the site (optimal SEO length)
-const descriptionTag =
-  "Example in Drinks And Entertainment Map Description Tag";
+const descriptionTag = "Example in Where To Stay Map Description Tag";
 
-const OtherMap = (
+const BarsPubs = (
   <div>
     <Paragraph>
-      Other
       <div>
-        <Cartography geojson={alcatraz} zoom={17} markerImg={marker} />
+        <Cartography geojson={barsPubs} zoom={13} markerImg={marker} />
       </div>
     </Paragraph>
   </div>
 );
 
-const exampleMap = [OtherMap, url, title, back, titleTag, descriptionTag];
+const barsPubsMap = [BarsPubs, url, title, back, titleTag, descriptionTag];
 
-export default exampleMap;
+export default barsPubsMap;

@@ -717,7 +717,7 @@ const restaurantsSanFrancisco = (
       <A href="https://www.roysrestaurant.com/" target="_blank" rel="noopener noreferrer">Roy’s Restaurant</A>.
       </Paragraph>
       <Paragraph>
-      <Link to="/san-francisco/fishermans-wharf">
+      <Link to="/san-francisco/steakhouses">
       <FlatButton
         style={{
           backgroundColor: "lightgrey",
