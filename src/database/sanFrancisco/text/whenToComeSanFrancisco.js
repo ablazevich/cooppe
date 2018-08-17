@@ -15,35 +15,35 @@ const whenToComeSanFrancisco =
 <h3>Fall (September - November)</h3>
 <div className="paragraph">Most people consider fall to be the best time to visit. The weather is often warmer than during the summer, skies are sunny and clear while crowds are mostly gone. Events and conventions: September - <a href="http://www.sffringe.org/" target="_blank">San Francisco Fringe Festival</a>, <a href="http://www.sresproductions.com/events/ghirardelli-chocolate-festival/" target="_blank">Ghirardelli Square Chocolate Festival</a>, <a href="http://www.gsma.com/northamerica/events" target="_blank">GSMA Mobile World Congress</a> (45,000 est. attendees) and <a href="http://castrostreetfair.org/" target="_blank">Castro Street Fair</a>, October - <a href="https://www.oracle.com/openworld/index.html" target="_blank">Oracle OpenWorld</a> (60,000 est. attendees) and <a href="http://www.hardlystrictlybluegrass.com/2016/" target="_blank">Hardly Strictly Bluegrass</a>, November - <a href="https://www.salesforce.com/form/dreamforce/df17.jsp" target="_blank">Dreamforce</a> (60,000 est. attendees) and <a href="http://www.sfautoshow.com/" target="_blank">Annual International Auto Show</a> (30,000 est. attendees).</div>
 <Table 
-	tableTitle = 'Average Annual Temperature in F/C and Rainfall in inch/mm'
+	tableTitle = 'Average Annual Temperature in F and Rainfall In inch'
 	tableHeader = {['','January','February', 'March', 'April', 'May', 'Jun']}
 	tableData = {[
 	  {
         average: 'High',
-	  	january: 5713.8,
-	  	february: 6015.7, 
-	  	march: 6216.6, 
-	  	april: 6317.3, 
-	  	may: 6417.9, 
-	  	june: 6619.1,
+	  	january: 57,
+	  	february: 60, 
+	  	march: 62, 
+	  	april: 63, 
+	  	may: 64, 
+	  	june: 66,
 	  },						
 	  {
         average: 'Low',
-	  	january: 467.6,
-	  	february: 478.6, 
-	  	march: 499.2, 
-	  	april: 499.6, 
-	  	may: 5110.6, 
-	  	june: 5311.6,					
+	  	january: 46,
+	  	february: 47, 
+	  	march: 49, 
+	  	april: 49, 
+	  	may: 51, 
+	  	june: 53,					
 	  },
         {
         average: 'Rainfall',
-	  	january: 4.49114,
-	  	february: 4.45113, 
-	  	march: 3.2783, 
-	  	april: 1.4637, 
-	  	may: 0.7118, 
-	  	june: 0.164,					
+	  	january: 4.49,
+	  	february: 4.45, 
+	  	march: 3.27, 
+	  	april: 1.46, 
+	  	may: 0.71, 
+	  	june: 0.16,					
 	  }
 	]}
 />
@@ -52,30 +52,95 @@ const whenToComeSanFrancisco =
 	tableData = {[
 	  {
         average: 'High',
-	  	july: 6719.2,
-	  	august: 6820.1,
-	  	september: 7021.2, 
-	  	october: 6920.7, 
-	  	november: 6317.3, 
-	  	december: 5713.9,					
+	  	july: 67,
+	  	august: 68,
+	  	september: 70, 
+	  	october: 69, 
+	  	november: 63, 
+	  	december: 57,					
 	  },
 	  {
         average: 'Low',
-	  	july: 5412.2,
-	  	august: 5512.8,
-	  	september: 5512.8, 
-	  	october: 5412.1, 
-	  	november: 5010.1, 
-	  	december: 467.8,				
+	  	july: 54,
+	  	august: 55,
+	  	september: 55, 
+	  	october: 54, 
+	  	november: 50, 
+	  	december: 46,				
 	  },
       {
         average: 'Rainfall',
 	  	july: 0,
-	  	august: 0.082,
-	  	september: 0.25, 
-	  	october: 1.128, 
-	  	november: 3.1580, 
-	  	december: 4.57116,
+	  	august: 0.08,
+	  	september: 0.2, 
+	  	october: 1.1, 
+	  	november: 3.15, 
+	  	december: 4.57,
+	  }
+	]}
+/>
+<Table 
+	tableTitle = 'Average Annual Temperature in C and Rainfall in mm'
+	tableHeader = {['','January','February', 'March', 'April', 'May', 'Jun']}
+	tableData = {[
+	  {
+        average: 'High',
+	  	january: 13.8,
+	  	february: 15.7, 
+	  	march: 16.6, 
+	  	april: 17.3, 
+	  	may: 17.9, 
+	  	june: 19.1,
+	  },						
+	  {
+        average: 'Low',
+	  	january: 7.6,
+	  	february: 8.6, 
+	  	march: 9.2, 
+	  	april: 9.6, 
+	  	may: 10.6, 
+	  	june: 11.6,					
+	  },
+        {
+        average: 'Rainfall',
+	  	january: 114,
+	  	february: 113, 
+	  	march: 83, 
+	  	april: 37, 
+	  	may: 18, 
+	  	june: 4,					
+	  }
+	]}
+/>
+<Table 
+	tableHeader = {['', 'July', 'August', 'September', 'October', 'November', 'December']}
+	tableData = {[
+	  {
+        average: 'High',
+	  	july: 19.2,
+	  	august: 20.1,
+	  	september: 21.2, 
+	  	october: 20.7, 
+	  	november: 17.3, 
+	  	december: 13.9,					
+	  },
+	  {
+        average: 'Low',
+	  	july: 12.2,
+	  	august: 12.8,
+	  	september: 12.8, 
+	  	october: 12.1, 
+	  	november: 10.1, 
+	  	december: 7.8,				
+	  },
+      {
+        average: 'Rainfall',
+	  	july: 0,
+	  	august: 2,
+	  	september: 5, 
+	  	october: 28, 
+	  	november: 80, 
+	  	december: 116,
 	  }
 	]}
 />
