@@ -8,37 +8,36 @@ import { Paragraph, A } from "../../../../../textStyle";
 import Cartography from "../../../../../../components/Cartography";
 
 // GeoJSON
-import alcatraz from "../../../../geojson/alcatraz";
+import attractionsCloseBy from "../../../../geojson/attractionsCloseBy";
 
 // Images
 import marker from "../../../../../../assets/marker.svg";
 
 // URL of this page
-const url = "/los-angeles/example-map999";
+const url = "/san-francisco/attractions-close-by";
 
 // URL of the page the user will be sent when hitting back
-const back = "/los-angeles";
+const back = "/san-francisco";
 
 // Body title
-const title = "Example in Things To Do Map";
+const title = "Attractions Close By";
 
 // Page title, must be 50–60 characters and unique across the site (optimal SEO length)
-const titleTag = "Example in Things To Do Map Title tag";
+const titleTag = "Attractions Close By";
 
 // Page description, must be 50–300 characters and unique across the site (optimal SEO length)
-const descriptionTag = "Example in Things To Do Map Description Tag";
+const descriptionTag = "Attractions Close By";
 
-const OtherMap = (
+const AttractionsCloseBy = (
   <div>
     <Paragraph>
-      Other
       <div>
-        <Cartography geojson={alcatraz} zoom={17} markerImg={marker} />
+        <Cartography geojson={attractionsCloseBy} zoom={9} markerImg={marker} />
       </div>
     </Paragraph>
   </div>
 );
 
-const exampleMap = [OtherMap, url, title, back, titleTag, descriptionTag];
+const attractionsCloseByMap = [AttractionsCloseBy, url, title, back, titleTag, descriptionTag];
 
-export default exampleMap;
+export default attractionsCloseByMap;

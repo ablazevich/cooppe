@@ -23,10 +23,10 @@ const back = "/san-francisco";
 const title = "The Embarcadero Hotels";
 
 // Page title, must be 50–60 characters and unique across the site (optimal SEO length)
-const titleTag = "Example in Where To Stay Map Title tag";
+const titleTag = "The Embarcadero Hotels";
 
 // Page description, must be 50–300 characters and unique across the site (optimal SEO length)
-const descriptionTag = "Example in Where To Stay Map Description Tag";
+const descriptionTag = "The Embarcadero Hotels";
 
 const TheEmbarcadero = (
   <div>

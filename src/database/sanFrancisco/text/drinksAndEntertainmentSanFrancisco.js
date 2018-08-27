@@ -32,7 +32,6 @@ const drinksAndEntertainmentSanFrancisco = (
       YakiniQ Cafe and{" "}
       <A href="http://zo11coffee.com/" target="_blank" rel="noopener noreferrer">Zo11 Coffee</A>.
     </Paragraph>
-
     <Paragraph>
     <Link to="/san-francisco/coffee-tea">
       <FlatButton
@@ -45,7 +44,6 @@ const drinksAndEntertainmentSanFrancisco = (
       </FlatButton>
     </Link>
     </Paragraph>
-
     <h3>Bars and Pubs</h3>
     <Paragraph>
       <A href="https://www.abvsf.com/" target="_blank" rel="noopener noreferrer">ABV</A>{" "}(Cocktails),{" "}
@@ -91,8 +89,7 @@ const drinksAndEntertainmentSanFrancisco = (
       <A href="http://www.toronado.com/" target="_blank" rel="noopener noreferrer">Toronado Pub</A>{" "}
       and{" "}
       <A href="http://www.zeitgeistsf.com/" target="_blank" rel="noopener noreferrer">Zeitgeist</A>{" "}(Dive bar).
-    </Paragraph>
-    
+    </Paragraph>   
     <Paragraph>
     <Link to="/san-francisco/bars-pubs">
       <FlatButton
@@ -105,7 +102,6 @@ const drinksAndEntertainmentSanFrancisco = (
       </FlatButton>
     </Link>
     </Paragraph>
-
     <h3>Clubs and Lounges</h3>
     <Paragraph>
       <A href="https://audiosf.com/" target="_blank" rel="noopener noreferrer">Audio Discotech</A>,{" "}
@@ -132,7 +128,6 @@ const drinksAndEntertainmentSanFrancisco = (
       and{" "}
       <A href="http://www.theindependentsf.com/" target="_blank" rel="noopener noreferrer">The Independent</A>.
     </Paragraph>
-
     <Paragraph>
     <Link to="/san-francisco/clubs-lounges">
       <FlatButton
@@ -145,7 +140,6 @@ const drinksAndEntertainmentSanFrancisco = (
       </FlatButton>
     </Link>
     </Paragraph>
-
   </div>
 	);
 

@@ -23,10 +23,10 @@ const back = "/san-francisco";
 const title = "Marina District Hotels";
 
 // Page title, must be 50–60 characters and unique across the site (optimal SEO length)
-const titleTag = "Example in Where To Stay Map Title tag";
+const titleTag = "Marina District Hotels";
 
 // Page description, must be 50–300 characters and unique across the site (optimal SEO length)
-const descriptionTag = "Example in Where To Stay Map Description Tag";
+const descriptionTag = "Marina District Hotels";
 
 const MarinaDistrict = (
   <div>

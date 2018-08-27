@@ -5,7 +5,7 @@ const southOfMarket = {
   markers: [
     {
       properties: {
-        tag: "964 (352.5)",
+        tag: "964 (2.5)",
         popUp: false,
         description: "",
       },
@@ -16,7 +16,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Aida Plaza (3.552)",
+        tag: "Aida Plaza (2)",
         popUp: false,
         description: "",
         link: "http://www.aidaplazahotel.com/"
@@ -28,7 +28,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Americas Best Value Inn & Suites (342)",
+        tag: "Americas Best Value Inn & Suites (2)",
         popUp: false,
         description: "",
         link: "https://www.redlion.com/san-francisco"
@@ -40,7 +40,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Bay Bridge Inn (342)",
+        tag: "Bay Bridge Inn (2)",
         popUp: false,
         description: "",
         link: "https://www.baybridgeinn.com/"
@@ -52,7 +52,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Best Western Plus Americania (3.552.5)",
+        tag: "Best Western Plus Americania (2.5)",
         popUp: false,
         description: "",
         link: "https://www.bestwestern.com/en_US.html"
@@ -64,7 +64,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Budget Inn (3.552.5)",
+        tag: "Budget Inn (2.5)",
         popUp: false,
         description: "",
         link: "http://www.budgetinn.com/"
@@ -76,7 +76,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Carriage Inn (3.553)",
+        tag: "Carriage Inn (3)",
         popUp: false,
         description: "",
         link: "https://www.haiyi-hotels.com/"
@@ -88,7 +88,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "City Center Inn & Suites (352)",
+        tag: "City Center Inn & Suites (2)",
         popUp: false,
         description: "",
       },
@@ -99,7 +99,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Civic Center Motor Inn (342)",
+        tag: "Civic Center Motor Inn (2)",
         popUp: false,
         description: "",
         link: "https://www.staysf.com/"
@@ -111,7 +111,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Desmond (3.552.5)",
+        tag: "Desmond (2.5)",
         popUp: false,
         description: "",
         link: "https://desmondhotelsf.com/"
@@ -123,7 +123,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Four Seasons (445)",
+        tag: "Four Seasons (5)",
         popUp: false,
         description: "",
         link: "https://www.fourseasons.com/"
@@ -135,7 +135,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Good (3.552.5)",
+        tag: "Good (2.5)",
         popUp: false,
         description: "",
         link: "https://www.haiyi-hotels.com/"
@@ -147,7 +147,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Hampton Inn (3.553)",
+        tag: "Hampton Inn (3)",
         popUp: false,
         description: "",
         link: "http://hamptoninn3.hilton.com/en/index.html"
@@ -159,7 +159,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Holiday Inn (3.553.5)",
+        tag: "Holiday Inn (3.5)",
         popUp: false,
         description: "",
         link: "https://www.ihg.com/hotels/us/en/reservation"
@@ -171,7 +171,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Inn on Folsom (352)",
+        tag: "Inn on Folsom (2)",
         popUp: false,
         description: "",
         link: "https://www.innonfolsom.com/"
@@ -183,7 +183,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "InterContinental (354.5)",
+        tag: "InterContinental (4.5)",
         popUp: false,
         description: "",
         link: "https://www.ihg.com/hotels/us/en/reservation"
@@ -195,7 +195,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Marriott Courtyard (353.5)",
+        tag: "Marriott Courtyard (3.5)",
         popUp: false,
         description: "",
         link: "https://www.marriott.com/default.mi"
@@ -207,7 +207,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Marriott Marquis (454)",
+        tag: "Marriott Marquis (4)",
         popUp: false,
         description: "",
         link: "https://www.marriott.com/default.mi"
@@ -219,7 +219,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Palace (455)",
+        tag: "Palace (5)",
         popUp: false,
         description: "",
         link: "https://www.sfpalace.com/"
@@ -231,7 +231,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Park Central (454)",
+        tag: "Park Central (4)",
         popUp: false,
         description: "",
         link: "https://www.parkcentralsf.com/"
@@ -243,7 +243,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Park Inn (3.552)",
+        tag: "Park Inn (2)",
         popUp: false,
         description: "",
         link: "https://www.somaparkinnciviccenter.com/"
@@ -255,7 +255,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Ram's (3.552)",
+        tag: "Ram's (2)",
         popUp: false,
         description: "",
         link: "https://www.ramshotelsf.com/"
@@ -267,7 +267,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "San Francisco Inn (342)",
+        tag: "San Francisco Inn (2)",
         popUp: false,
         description: "",
         link: "http://www.sanfranciscoinn.com/"
@@ -279,7 +279,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "The Mosser (452.5)",
+        tag: "The Mosser (2.5)",
         popUp: false,
         description: "",
         link: "http://www.sanfranciscoinn.com/"
@@ -291,7 +291,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "The Pickwick (3.553.5)",
+        tag: "The Pickwick (3.5)",
         popUp: false,
         description: "",
         link: "https://thepickwickhotel.com/"
@@ -303,7 +303,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "The St. Regis (3.555)",
+        tag: "The St. Regis (5)",
         popUp: false,
         description: "",
         link: "http://www.stregissanfrancisco.com/"
@@ -315,7 +315,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Travelodge (3.552)",
+        tag: "Travelodge (2)",
         popUp: false,
         description: "",
         link: "https://www.wyndhamhotels.com/"
@@ -327,7 +327,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "W San Francisco (3.554)",
+        tag: "W San Francisco (4)",
         popUp: false,
         description: "",
         link: "http://www.wsanfrancisco.com/"
@@ -339,7 +339,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Winsor (3.551.5)",
+        tag: "Winsor (1.5)",
         popUp: false,
         description: "",
         link: "https://winsorhotelsf.com/"
@@ -351,7 +351,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Whitcomb (3.553.5)",
+        tag: "Whitcomb (3.5)",
         popUp: false,
         description: "",
         link: "http://www.hotelwhitcomb.com/main/WHITCOMB-Page.asp?p=1"
@@ -363,7 +363,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Zelos (454)",
+        tag: "Zelos (4)",
         popUp: false,
         description: "",
         link: "https://www.viceroyhotelsandresorts.com/en/zelos"
@@ -375,7 +375,7 @@ const southOfMarket = {
     },
     {
       properties: {
-        tag: "Zetta (3.554)",
+        tag: "Zetta (4)",
         popUp: false,
         description: "",
         link: "https://www.viceroyhotelsandresorts.com/en/zetta"

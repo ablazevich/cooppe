@@ -23,10 +23,10 @@ const back = "/san-francisco";
 const title = "American New and Traditional Restaurants";
 
 // Page title, must be 50–60 characters and unique across the site (optimal SEO length)
-const titleTag = "Example in Where To Stay Map Title tag";
+const titleTag = "American New and Traditional Restaurants";
 
 // Page description, must be 50–300 characters and unique across the site (optimal SEO length)
-const descriptionTag = "Example in Where To Stay Map Description Tag";
+const descriptionTag = "American New and Traditional Restaurants";
 
 const American = (
   <div>

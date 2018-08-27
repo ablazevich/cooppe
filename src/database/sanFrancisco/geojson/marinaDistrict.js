@@ -1,12 +1,11 @@
 // http://geojson.io/#map=2/20.0/0.0
 
 const marinaDistrict = {
-  center: [37.80286695148153,-122.43790626525877],
-          
+  center: [37.8007306877234,-122.43494510650635],                  
   markers: [
     {
       properties: {
-        tag: "Alpha Inn & Suites (222)",
+        tag: "Alpha Inn & Suites (2)",
         popUp: false,
         description: "",
         link: "https://www.alphainnandsuites.com/"
@@ -18,7 +17,7 @@ const marinaDistrict = {
     },
     {
       properties: {
-        tag: "Buena Vista Motor Inn (2.542.5)",
+        tag: "Buena Vista Motor Inn (2.5)",
         popUp: false,
         description: "",
         link: "http://www.buenavistamotorinn.com/"
@@ -30,7 +29,7 @@ const marinaDistrict = {
     },
     {
       properties: {
-        tag: "Chelsea Inn (232.5)",
+        tag: "Chelsea Inn (2.5)",
         popUp: false,
         description: "",
         link: "https://chelsea-inn.business.site/"
@@ -42,7 +41,7 @@ const marinaDistrict = {
     },
     {
       properties: {
-        tag: "Comfort Inn (2.552.5)",
+        tag: "Comfort Inn (2.5)",
         popUp: false,
         description: "",
       },
@@ -53,7 +52,7 @@ const marinaDistrict = {
     },
     {
       properties: {
-        tag: "Coventry Motor Inn (242.5)",
+        tag: "Coventry Motor Inn (2.5)",
         popUp: false,
         description: "",
         link: "http://www.coventrymotorinn.com/"
@@ -65,7 +64,7 @@ const marinaDistrict = {
     },
     {
       properties: {
-        tag: "Cow Hollow Inn & Suites (232)",
+        tag: "Cow Hollow Inn & Suites (2)",
         popUp: false,
         description: "",
         link: "http://www.cowhollowmotorinn.com/"
@@ -77,7 +76,7 @@ const marinaDistrict = {
     },
     {
       properties: {
-        tag: "Days Inn (232)",
+        tag: "Days Inn (2)",
         popUp: false,
         description: "",
         link: "https://www.wyndhamhotels.com/days-inn"
@@ -89,7 +88,7 @@ const marinaDistrict = {
     },
     {
       properties: {
-        tag: "Del Sol (242.5)",
+        tag: "Del Sol (2.5)",
         popUp: false,
         description: "",
         link: "https://www.jdvhotels.com/"
@@ -101,7 +100,7 @@ const marinaDistrict = {
     },
     {
       properties: {
-        tag: "Francisco Bay Inn (2.552)",
+        tag: "Francisco Bay Inn (2)",
         popUp: false,
         description: "",
         link: "https://www.staysf.com/"
@@ -113,7 +112,7 @@ const marinaDistrict = {
     },
     {
       properties: {
-        tag: "Greenwich Inn (232)",
+        tag: "Greenwich Inn (2)",
         popUp: false,
         description: "",
         link: "https://greenwichinn.com/"
@@ -125,7 +124,7 @@ const marinaDistrict = {
     },
     {
       properties: {
-        tag: "Howard Johnson (242)",
+        tag: "Howard Johnson (2)",
         popUp: false,
         description: "",
         link: "https://www.wyndhamhotels.com/"
@@ -137,7 +136,7 @@ const marinaDistrict = {
     },
     {
       properties: {
-        tag: "Inn at Golden Gate (222)",
+        tag: "Inn at Golden Gate (2)",
         popUp: false,
         description: "",
         link: "https://www.innatgoldengate.com/"
@@ -149,7 +148,7 @@ const marinaDistrict = {
     },
     {
       properties: {
-        tag: "La Luna Inn (222.5)",
+        tag: "La Luna Inn (2.5)",
         popUp: false,
         description: "",
         link: "https://lalunainn.com/"
@@ -161,7 +160,7 @@ const marinaDistrict = {
     },
     {
       properties: {
-        tag: "Lombard Motor Inn (2.552.5)",
+        tag: "Lombard Motor Inn (2.5)",
         popUp: false,
         description: "",
         link: "http://www.lombardmotorinn.com/"
@@ -171,11 +170,9 @@ const marinaDistrict = {
         coordinates: [37.800917,-122.425799]
       }
     },
-    //Close Marker
-    //Open Marker
     {
       properties: {
-        tag: "Lombard Plaza Motel (232)",
+        tag: "Lombard Plaza Motel (2)",
         popUp: false,
         description: "",
         link: "https://www.lombardplaza.com/"
@@ -187,7 +184,7 @@ const marinaDistrict = {
     },
     {
       properties: {
-        tag: "Marina Inn (2.542)",
+        tag: "Marina Inn (2)",
         popUp: false,
         description: "",
         link: "https://www.marinainn.com/"
@@ -199,7 +196,7 @@ const marinaDistrict = {
     },
     {
       properties: {
-        tag: "Marina Motel (222)",
+        tag: "Marina Motel (2)",
         popUp: false,
         description: "",
         link: "http://www.marinamotel.com/"
@@ -211,7 +208,7 @@ const marinaDistrict = {
     },
     {
       properties: {
-        tag: "Motel Capri (242)",
+        tag: "Motel Capri (2)",
         popUp: false,
         description: "",
         link: "https://sfmotelcapri.com/"
@@ -223,7 +220,7 @@ const marinaDistrict = {
     },
     {
       properties: {
-        tag: "Presidio Inn (232)",
+        tag: "Presidio Inn (2)",
         popUp: false,
         description: "",
         link: "https://presidioinn.com/"
@@ -235,7 +232,7 @@ const marinaDistrict = {
     },
     {
       properties: {
-        tag: "Super 8 (222)",
+        tag: "Super 8 (2)",
         popUp: false,
         description: "",
         link: "https://www.wyndhamhotels.com/"
@@ -247,7 +244,7 @@ const marinaDistrict = {
     },
     {
       properties: {
-        tag: "Surf Motel (232)",
+        tag: "Surf Motel (2)",
         popUp: false,
         description: "",
         link: "http://www.surfmotorinn.com/"
@@ -259,7 +256,7 @@ const marinaDistrict = {
     },
     {
       properties: {
-        tag: "Travel Inn (232)",
+        tag: "Travel Inn (2)",
         popUp: false,
         description: "",
         link: "https://www.travelinnsf.com/"
@@ -271,7 +268,7 @@ const marinaDistrict = {
     },
     {
       properties: {
-        tag: "Travelodge (222)",
+        tag: "Travelodge (2)",
         popUp: false,
         description: "",
         link: "https://www.wyndhamhotels.com/"
@@ -283,7 +280,7 @@ const marinaDistrict = {
     },
     {
       properties: {
-        tag: "Travelodge (2.552)",
+        tag: "Travelodge (2)",
         popUp: false,
         description: "",
         link: "https://www.wyndhamhotels.com/"

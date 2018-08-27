@@ -1,7 +1,7 @@
 // URLs
-import exampleMap from "./urls/ExampleMap";
+import attractionsCloseByMap from "./urls/AttractionsCloseBy";
 
 // Add every inner page created for this section
-const inAttractionsCloseBySanFrancisco = [exampleMap];
+const inAttractionsCloseBySanFrancisco = [attractionsCloseByMap];
 
 export default inAttractionsCloseBySanFrancisco;

@@ -1,8 +1,7 @@
 // http://geojson.io/#map=2/20.0/0.0
 
 const barsPubs = {
-  center: [37.77722770873696,-122.44657516479493],
-          
+  center: [37.77722770873696,-122.44657516479493],        
   markers: [
     {
       properties: {

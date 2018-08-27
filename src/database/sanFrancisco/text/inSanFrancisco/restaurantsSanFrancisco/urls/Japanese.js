@@ -23,10 +23,10 @@ const back = "/san-francisco";
 const title = "Japanese Restaurants";
 
 // Page title, must be 50–60 characters and unique across the site (optimal SEO length)
-const titleTag = "Example in Where To Stay Map Title tag";
+const titleTag = "Japanese Restaurants";
 
 // Page description, must be 50–300 characters and unique across the site (optimal SEO length)
-const descriptionTag = "Example in Where To Stay Map Description Tag";
+const descriptionTag = "Japanese Restaurants";
 
 const Japanese = (
   <div>

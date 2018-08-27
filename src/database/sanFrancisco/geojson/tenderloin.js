@@ -1,11 +1,11 @@
 // http://geojson.io/#map=2/20.0/0.0
 
 const tenderloin = {
-  center: [37.7855037805344,-122.4161911010742],        
+  center: [37.78553769695475,-122.41378784179688],
   markers: [
     {
       properties: {
-        tag: "Abri (353.5)",
+        tag: "Abri (3.5)",
         popUp: false,
         description: "",
         link: "https://www.hotelabrisf.com/"
@@ -17,7 +17,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Admiral (2.552)",
+        tag: "Admiral (2)",
         popUp: false,
         description: "",
         link: "http://www.admiralhotelsanfrancisco.us/"
@@ -29,7 +29,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Adrian (2.552)",
+        tag: "Adrian (2)",
         popUp: false,
         description: "",
         link: "https://www.adrianhotelsf.com/en-us"
@@ -41,7 +41,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Aldrich (2.552)",
+        tag: "Aldrich (2)",
         popUp: false,
         description: "",
         link: "http://www.aldrichhotelsanfrancisco.us/"
@@ -53,7 +53,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Alexis Park (242)",
+        tag: "Alexis Park (2)",
         popUp: false,
         description: "",
         link: "http://www.alexisparksf.com/"
@@ -65,7 +65,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Artmar (2.552.5)",
+        tag: "Artmar (2.5)",
         popUp: false,
         description: "",
       },
@@ -76,7 +76,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Axiom (354)",
+        tag: "Axiom (4)",
         popUp: false,
         description: "",
         link: "https://www.axiomhotel.com/"
@@ -88,7 +88,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Bijou (352.5)",
+        tag: "Bijou (2.5)",
         popUp: false,
         description: "",
         link: "https://www.hotelbijou.com/"
@@ -100,7 +100,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Civic Center Inn (242)",
+        tag: "Civic Center Inn (2)",
         popUp: false,
         description: "",
       },
@@ -111,7 +111,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "COVA (243)",
+        tag: "COVA (3)",
         popUp: false,
         description: "",
         link: "https://www.covahotel.com/"
@@ -123,7 +123,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Embassy (242.5)",
+        tag: "Embassy (2.5)",
         popUp: false,
         description: "",
         link: "http://www.theembassyhotelsf.com/"
@@ -135,7 +135,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "EPIK (243.5)",
+        tag: "EPIK (3.5)",
         popUp: false,
         description: "",
         link: "https://www.epiksf.com/"
@@ -147,7 +147,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Fusion (353.5)",
+        tag: "Fusion (3.5)",
         popUp: false,
         description: "",
         link: "https://hotelfusionsf.com/"
@@ -159,7 +159,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Gateway Inn (2.552)",
+        tag: "Gateway Inn (2)",
         popUp: false,
         description: "",
       },
@@ -170,7 +170,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Handlery (353.5)",
+        tag: "Handlery (3.5)",
         popUp: false,
         description: "",
         link: "https://sf.handlery.com/"
@@ -182,7 +182,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Hilton (2.554)",
+        tag: "Hilton (4)",
         popUp: false,
         description: "",
         link: "http://www3.hilton.com/en/index.html"
@@ -194,7 +194,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Holiday Inn Express (352.5)",
+        tag: "Holiday Inn Express (2.5)",
         popUp: false,
         description: "",
         link: "https://www.ihg.com/hotels/us/en/reservation"
@@ -206,7 +206,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "King George (353)",
+        tag: "King George (3)",
         popUp: false,
         description: "",
         link: "https://www.kinggeorge.com/"
@@ -218,7 +218,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Layne (2.552)",
+        tag: "Layne (2)",
         popUp: false,
         description: "",
         link: "http://laynehotel.com/"
@@ -230,7 +230,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Luz (2.542)",
+        tag: "Luz (2)",
         popUp: false,
         description: "",
       },
@@ -241,7 +241,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Metropolis (353)",
+        tag: "Metropolis (3)",
         popUp: false,
         description: "",
         link: "https://www.haiyi-hotels.com/"
@@ -253,7 +253,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Monarch (242)",
+        tag: "Monarch (2)",
         popUp: false,
         description: "",
         link: "http://www.themonarchhotel.com/"
@@ -265,7 +265,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Nikko (354)",
+        tag: "Nikko (4)",
         popUp: false,
         description: "",
         link: "http://www.hotelnikkosf.com/"
@@ -277,7 +277,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Parc 55 (354)",
+        tag: "Parc 55 (4)",
         popUp: false,
         description: "",
         link: "http://www3.hilton.com/en/hotels/california/parc-55-san-francisco-a-hilton-hotel-SFOSFHH/index.html"
@@ -289,7 +289,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Stratford (352)",
+        tag: "Stratford (2)",
         popUp: false,
         description: "",
         link: "http://hotelstratfordsf.com/"
@@ -301,7 +301,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Super 8 (2.552)",
+        tag: "Super 8 (2)",
         popUp: false,
         description: "",
         link: "https://www.wyndhamhotels.com/"
@@ -313,7 +313,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Sweden House (2.552.5)",
+        tag: "Sweden House (2.5)",
         popUp: false,
         description: "",
       },
@@ -324,7 +324,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "The Herbert (352.5)",
+        tag: "The Herbert (2.5)",
         popUp: false,
         description: "",
         link: "http://theherberthotel.com/"
@@ -336,7 +336,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "The Opal (242.5)",
+        tag: "The Opal (2.5)",
         popUp: false,
         description: "",
         link: "http://www.theopalsf.com/"
@@ -348,7 +348,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "The Phoenix (252.5)",
+        tag: "The Phoenix (2.5)",
         popUp: false,
         description: "",
         link: "https://www.phoenixsf.com/"
@@ -360,7 +360,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "The Red Coach Motor Lodge (242.5)",
+        tag: "The Red Coach Motor Lodge (2.5)",
         popUp: false,
         description: "",
         link: "http://redcoachmotorlodge-sf.us/"
@@ -372,7 +372,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Tilden (2.554)",
+        tag: "Tilden (4)",
         popUp: false,
         description: "",
         link: "https://www.tildenhotel.com/"
@@ -384,7 +384,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Union Square (353.5)",
+        tag: "Union Square (3.5)",
         popUp: false,
         description: "",
         link: "http://hotelunionsquare.com/"
@@ -396,7 +396,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Villa Florence (354)",
+        tag: "Villa Florence (4)",
         popUp: false,
         description: "",
         link: "https://www.villaflorence.com/"
@@ -408,7 +408,7 @@ const tenderloin = {
     },
     {
       properties: {
-        tag: "Yale (242.5)",
+        tag: "Yale (2.5)",
         popUp: false,
         description: "",
         link: "https://www.theyalehotel.com/en-us"

@@ -1,12 +1,11 @@
 // http://geojson.io/#map=2/20.0/0.0
 
 const unionSquare = {
-  center: [37.7888529519201,-122.40870237350462],
-          
+  center: [37.7888529519201,-122.40870237350462],       
   markers: [
     {
       properties: {
-        tag: "32One (553)",
+        tag: "32One (3)",
         popUp: false,
         description: "",
         link: "https://www.hotel32one.com/"
@@ -18,7 +17,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Adagio (554)",
+        tag: "Adagio (4)",
         popUp: false,
         description: "",
       },
@@ -29,7 +28,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Adante (553)",
+        tag: "Adante (3)",
         popUp: false,
         description: "",
         link: "https://www.adantehotel.com/"
@@ -41,7 +40,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Chancellor (553)",
+        tag: "Chancellor (3)",
         popUp: false,
         description: "",
         link: "http://www.chancellorhotel.com/"
@@ -53,7 +52,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Cornell Hotel de France (553.5)",
+        tag: "Cornell Hotel de France (3.5)",
         popUp: false,
         description: "",
         link: "http://www.cornellhotel.com/cornell-hotel"
@@ -65,7 +64,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Courtyard by Marriott (553)",
+        tag: "Courtyard by Marriott (3)",
         popUp: false,
         description: "",
         link: "https://www.marriott.com/default.mi"
@@ -77,7 +76,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Dakota (552)",
+        tag: "Dakota (2)",
         popUp: false,
         description: "",
       },
@@ -88,7 +87,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Diva (553.5)",
+        tag: "Diva (3.5)",
         popUp: false,
         description: "",
         link: "https://www.hoteldiva.com/"
@@ -100,7 +99,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Executive Hotel Vintage Court (553)",
+        tag: "Executive Hotel Vintage Court (3)",
         popUp: false,
         description: "",
         link: "http://www.executivehotels.net/"
@@ -112,7 +111,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Fairmont (555)",
+        tag: "Fairmont (5)",
         popUp: false,
         description: "",
         link: "https://www.fairmont.com/"
@@ -124,7 +123,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Fitzgerald (552)",
+        tag: "Fitzgerald (2)",
         popUp: false,
         description: "",
         link: "http://www.fitzgeraldhotel.com/"
@@ -136,7 +135,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "G (554)",
+        tag: "G (4)",
         popUp: false,
         description: "",
         link: "https://www.hotelgsanfrancisco.com/"
@@ -148,7 +147,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Galleria Park (554)",
+        tag: "Galleria Park (4)",
         popUp: false,
         description: "",
         link: "https://www.jdvhotels.com/"
@@ -160,7 +159,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Grand Hyatt (554)",
+        tag: "Grand Hyatt (4)",
         popUp: false,
         description: "",
         link: "https://www.hyatt.com/"
@@ -172,7 +171,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Grant (552)",
+        tag: "Grant (2)",
         popUp: false,
         description: "",
         link: "http://granthotel.com/"
@@ -184,7 +183,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Hotel des Arts (552)",
+        tag: "Hotel des Arts (2)",
         popUp: false,
         description: "",
         link: "https://www.sfhoteldesarts.com/en-us"
@@ -196,7 +195,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Inn (553.5)",
+        tag: "Inn (3.5)",
         popUp: false,
         description: "",
         link: "https://www.unionsquare.com/"
@@ -208,7 +207,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "InterContinental (554)",
+        tag: "InterContinental (4)",
         popUp: false,
         description: "",
         link: "https://www.ihg.com/hotels/us/en/reservation"
@@ -220,7 +219,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "JW Marriott (554)",
+        tag: "JW Marriott (4)",
         popUp: false,
         description: "",
         link: "https://www.marriott.com/default.mi"
@@ -232,7 +231,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Kensington Park (553.5)",
+        tag: "Kensington Park (3.5)",
         popUp: false,
         description: "",
         link: "https://www.kensingtonparkhotel.com/"
@@ -244,7 +243,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Kimpton Sir Francis Drake (554)",
+        tag: "Kimpton Sir Francis Drake (4)",
         popUp: false,
         description: "",
         link: "https://www.sirfrancisdrake.com/"
@@ -256,7 +255,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Marriott (554)",
+        tag: "Marriott (4)",
         popUp: false,
         description: "",
         link: "https://www.marriott.com/default.mi"
@@ -268,7 +267,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Mystic (553.5)",
+        tag: "Mystic (3.5)",
         popUp: false,
         description: "",
         link: "https://www.mystichotel.com/"
@@ -280,7 +279,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Orchard Garden (554)",
+        tag: "Orchard Garden (4)",
         popUp: false,
         description: "",
         link: "https://www.theorchardgardenhotel.com/"
@@ -292,7 +291,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Petite Auberge (553)",
+        tag: "Petite Auberge (3)",
         popUp: false,
         description: "",
         link: "http://www.petiteaubergesf.com/"
@@ -304,7 +303,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Plaza (552)",
+        tag: "Plaza (2)",
         popUp: false,
         description: "",
         link: "https://www.usphotel.com/"
@@ -316,7 +315,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Post (552)",
+        tag: "Post (2)",
         popUp: false,
         description: "",
         link: "http://www.posthotelsanfrancisco.us/"
@@ -328,7 +327,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Rex (553.5)",
+        tag: "Rex (3.5)",
         popUp: false,
         description: "",
         link: "https://www.jdvhotels.com/"
@@ -340,7 +339,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "SF Plaza (552.5)",
+        tag: "SF Plaza (2.5)",
         popUp: false,
         description: "",
         link: "https://sfplazahotel510.business.site/"
@@ -352,7 +351,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Stanford Court (554)",
+        tag: "Stanford Court (4)",
         popUp: false,
         description: "",
         link: "https://www.stanfordcourt.com/"
@@ -364,7 +363,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Taj Campton Place (555)",
+        tag: "Taj Campton Place (5)",
         popUp: false,
         description: "",
         link: "https://www.tajcamptonplace.com/"
@@ -376,7 +375,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Taylor (552.5)",
+        tag: "Taylor (2.5)",
         popUp: false,
         description: "",
         link: "http://www.sanfranciscocheaphotel.com/"
@@ -388,7 +387,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Triton (553)",
+        tag: "Triton (3)",
         popUp: false,
         description: "",
         link: "https://www.hoteltriton.com/"
@@ -400,7 +399,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "The Alise (554)",
+        tag: "The Alise (4)",
         popUp: false,
         description: "",
         link: "https://www.staypineapple.com/the-alise-san-francisco-san-francisco-ca"
@@ -412,7 +411,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "The Andrews (553)",
+        tag: "The Andrews (3)",
         popUp: false,
         description: "",
         link: "https://www.andrewshotel.info/"
@@ -424,7 +423,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "The Cartwright (553.5)",
+        tag: "The Cartwright (3.5)",
         popUp: false,
         description: "",
         link: "https://www.bestwestern.com/en_US.html"
@@ -436,7 +435,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "The Ritz-Carlton (555)",
+        tag: "The Ritz-Carlton (5)",
         popUp: false,
         description: "",
         link: "http://www.ritzcarlton.com/"
@@ -448,7 +447,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "The Scarlet Huntington (554.5)",
+        tag: "The Scarlet Huntington (4.5)",
         popUp: false,
         description: "",
         link: "http://www.thescarlethotels.com/"
@@ -460,7 +459,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "The Urban (552.5)",
+        tag: "The Urban (2.5)",
         popUp: false,
         description: "",
         link: "https://www.theurbansf.com/"
@@ -472,7 +471,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "The Westin St. Francis (554)",
+        tag: "The Westin St. Francis (4)",
         popUp: false,
         description: "",
         link: "https://www.westinstfrancis.com/"
@@ -484,7 +483,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Warwick (554)",
+        tag: "Warwick (4)",
         popUp: false,
         description: "",
         link: "https://warwickhotels.com/"
@@ -496,7 +495,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "White Swan Inn (553.5)",
+        tag: "White Swan Inn (3.5)",
         popUp: false,
         description: "",
         link: "http://www.whiteswaninnsf.com/"
@@ -508,7 +507,7 @@ const unionSquare = {
     },
     {
       properties: {
-        tag: "Zeppelin (554)",
+        tag: "Zeppelin (4)",
         popUp: false,
         description: "",
         link: "https://www.viceroyhotelsandresorts.com/"

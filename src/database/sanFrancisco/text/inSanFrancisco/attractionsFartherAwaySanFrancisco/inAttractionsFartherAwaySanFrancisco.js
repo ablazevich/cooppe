@@ -1,7 +1,7 @@
 // URLs
-import exampleMap from "./urls/ExampleMap";
+import attractionsFartherAwayMap from "./urls/AttractionsFartherAway";
 
 // Add every inner page created for this section
-const inAttractionsFartherAwaySanFrancisco = [exampleMap];
+const inAttractionsFartherAwaySanFrancisco = [attractionsFartherAwayMap];
 
 export default inAttractionsFartherAwaySanFrancisco;

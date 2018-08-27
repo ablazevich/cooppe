@@ -8,37 +8,36 @@ import { Paragraph, A } from "../../../../../textStyle";
 import Cartography from "../../../../../../components/Cartography";
 
 // GeoJSON
-import alcatraz from "../../../../geojson/alcatraz";
+import attractionsFartherAway from "../../../../geojson/attractionsFartherAway";
 
 // Images
 import marker from "../../../../../../assets/marker.svg";
 
 // URL of this page
-const url = "/san-francisco/example-map222";
+const url = "/san-francisco/attractions-farther-away";
 
 // URL of the page the user will be sent when hitting back
 const back = "/san-francisco";
 
 // Body title
-const title = "Example in AttractionsFartherAway Map";
+const title = "Attractions Farther Away";
 
 // Page title, must be 50–60 characters and unique across the site (optimal SEO length)
-const titleTag = "Example in AttractionsFartherAway Map Title tag";
+const titleTag = "Attractions Farther Away";
 
 // Page description, must be 50–300 characters and unique across the site (optimal SEO length)
-const descriptionTag = "Example in AttractionsFartherAway Map Description Tag";
+const descriptionTag = "Attractions Farther Away";
 
-const OtherMap = (
+const AttractionsFartherAway = (
   <div>
     <Paragraph>
-      Other
       <div>
-        <Cartography geojson={alcatraz} zoom={17} markerImg={marker} />
+        <Cartography geojson={attractionsFartherAway} zoom={7} markerImg={marker} />
       </div>
     </Paragraph>
   </div>
 );
 
-const exampleMap = [OtherMap, url, title, back, titleTag, descriptionTag];
+const attractionsFartherAwayMap = [AttractionsFartherAway, url, title, back, titleTag, descriptionTag];
 
-export default exampleMap;
+export default attractionsFartherAwayMap;

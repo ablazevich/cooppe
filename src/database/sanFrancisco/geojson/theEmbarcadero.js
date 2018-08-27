@@ -1,12 +1,11 @@
 // http://geojson.io/#map=2/20.0/0.0
 
 const theEmbarcadero = {
-  center: [37.79669535426995,-122.40280151367187],
-          
+  center: [37.79632232912294,-122.39984035491942],        
   markers: [
     {
       properties: {
-        tag: "Balmoral (452)",
+        tag: "Balmoral (2)",
         popUp: false,
         description: "",
         link: "http://balmoralsf.com/"
@@ -18,7 +17,7 @@ const theEmbarcadero = {
     },
     {
       properties: {
-        tag: "Boheme (453)",
+        tag: "Boheme (3)",
         popUp: false,
         description: "",
         link: "http://www.hotelboheme.com/"
@@ -30,7 +29,7 @@ const theEmbarcadero = {
     },
     {
       properties: {
-        tag: "Club Quarters (454)",
+        tag: "Club Quarters (4)",
         popUp: false,
         description: "",
         link: "https://clubquartershotels.com/"
@@ -42,7 +41,7 @@ const theEmbarcadero = {
     },
     {
       properties: {
-        tag: "Europa (451.5)",
+        tag: "Europa (1.5)",
         popUp: false,
         description: "",
         link: "http://europahotelnhostel.us/"
@@ -54,7 +53,7 @@ const theEmbarcadero = {
     },
     {
       properties: {
-        tag: "Harbor Court (453.5)",
+        tag: "Harbor Court (3.5)",
         popUp: false,
         description: "",
         link: "https://www.harborcourthotel.com/"
@@ -66,7 +65,7 @@ const theEmbarcadero = {
     },
     {
       properties: {
-        tag: "Hilton (454)",
+        tag: "Hilton (4)",
         popUp: false,
         description: "",
         link: "http://www3.hilton.com/en/index.html"
@@ -78,7 +77,7 @@ const theEmbarcadero = {
     },
     {
       properties: {
-        tag: "Hyatt Regency (454)",
+        tag: "Hyatt Regency (4)",
         popUp: false,
         description: "",
         link: "https://www.hyatt.com/"
@@ -90,7 +89,7 @@ const theEmbarcadero = {
     },
     {
       properties: {
-        tag: "Griffon (453.5)",
+        tag: "Griffon (3.5)",
         popUp: false,
         description: "",
         link: "https://www.hotelgriffon.com/"
@@ -102,7 +101,7 @@ const theEmbarcadero = {
     },
     {
       properties: {
-        tag: "North Beach (452)",
+        tag: "North Beach (2)",
         popUp: false,
         description: "",
         link: "http://hotelnorthbeach.com/"
@@ -114,7 +113,7 @@ const theEmbarcadero = {
     },
     {
       properties: {
-        tag: "Le Meridien (454)",
+        tag: "Le Meridien (4)",
         popUp: false,
         description: "",
         link: "http://www.starwoodhotels.com/index.html"
@@ -126,7 +125,7 @@ const theEmbarcadero = {
     },
     {
       properties: {
-        tag: "Loews Regency (455)",
+        tag: "Loews Regency (5)",
         popUp: false,
         description: "",
         link: "https://www.loewshotels.com/"
@@ -138,7 +137,7 @@ const theEmbarcadero = {
     },
     {
       properties: {
-        tag: "Omni (454.5)",
+        tag: "Omni (4.5)",
         popUp: false,
         description: "",
         link: "https://www.omnihotels.com/"
@@ -150,7 +149,7 @@ const theEmbarcadero = {
     },
     {
       properties: {
-        tag: "Royal Pacific Motor Inn (452)",
+        tag: "Royal Pacific Motor Inn (2)",
         popUp: false,
         description: "",
         link: "http://www.royalpacificmotorinn.com/"

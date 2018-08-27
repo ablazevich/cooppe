@@ -1,6 +1,12 @@
 // React
 import React from "react";
 
+// Router
+import { Link } from "react-router-dom";
+
+// Material UI components
+import FlatButton from "material-ui/FlatButton";
+
 // Style
 import { Paragraph, A } from "../../textStyle";
 
@@ -115,8 +121,19 @@ const thingsToDoSanFrancisco = (
       </A>{" "}
       and Union Square.
     </Paragraph>
+    <Paragraph>
+    <Link to="/san-francisco/things-to-do">
+      <FlatButton
+        style={{
+          backgroundColor: "lightgrey",
+          fontWeight: "500"
+        }}
+      >
+        MAP
+      </FlatButton>
+    </Link>
+    </Paragraph>
   </div>
 );
 
 export default thingsToDoSanFrancisco;
-

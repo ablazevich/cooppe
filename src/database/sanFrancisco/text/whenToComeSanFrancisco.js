@@ -15,8 +15,8 @@ const whenToComeSanFrancisco =
 <h3>Fall (September - November)</h3>
 <div className="paragraph">Most people consider fall to be the best time to visit. The weather is often warmer than during the summer, skies are sunny and clear while crowds are mostly gone. Events and conventions: September - <a href="http://www.sffringe.org/" target="_blank">San Francisco Fringe Festival</a>, <a href="http://www.sresproductions.com/events/ghirardelli-chocolate-festival/" target="_blank">Ghirardelli Square Chocolate Festival</a>, <a href="http://www.gsma.com/northamerica/events" target="_blank">GSMA Mobile World Congress</a> (45,000 est. attendees) and <a href="http://castrostreetfair.org/" target="_blank">Castro Street Fair</a>, October - <a href="https://www.oracle.com/openworld/index.html" target="_blank">Oracle OpenWorld</a> (60,000 est. attendees) and <a href="http://www.hardlystrictlybluegrass.com/2016/" target="_blank">Hardly Strictly Bluegrass</a>, November - <a href="https://www.salesforce.com/form/dreamforce/df17.jsp" target="_blank">Dreamforce</a> (60,000 est. attendees) and <a href="http://www.sfautoshow.com/" target="_blank">Annual International Auto Show</a> (30,000 est. attendees).</div>
 <Table 
-	tableTitle = 'Average Annual Temperature in F and Rainfall In inch'
-	tableHeader = {['','January','February', 'March', 'April', 'May', 'Jun']}
+///	tableTitle = 'Average Annual Temperature in F and Rainfall In inch'
+	tableHeader = {['F/inch','Jan','Feb', 'Mar', 'Apr', 'May', 'Jun']}
 	tableData = {[
 	  {
         average: 'High',
@@ -37,7 +37,7 @@ const whenToComeSanFrancisco =
 	  	june: 53,					
 	  },
         {
-        average: 'Rainfall',
+        average: 'Rain',
 	  	january: 4.49,
 	  	february: 4.45, 
 	  	march: 3.27, 
@@ -48,7 +48,7 @@ const whenToComeSanFrancisco =
 	]}
 />
 <Table 
-	tableHeader = {['', 'July', 'August', 'September', 'October', 'November', 'December']}
+	tableHeader = {['F/inch', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']}
 	tableData = {[
 	  {
         average: 'High',
@@ -69,7 +69,7 @@ const whenToComeSanFrancisco =
 	  	december: 46,				
 	  },
       {
-        average: 'Rainfall',
+        average: 'Rain',
 	  	july: 0,
 	  	august: 0.08,
 	  	september: 0.2, 
@@ -80,8 +80,8 @@ const whenToComeSanFrancisco =
 	]}
 />
 <Table 
-	tableTitle = 'Average Annual Temperature in C and Rainfall in mm'
-	tableHeader = {['','January','February', 'March', 'April', 'May', 'Jun']}
+///	tableTitle = 'Average Annual Temperature in C and Rainfall in mm'
+	tableHeader = {['C/mm','Jan','Feb', 'Mar', 'Apr', 'May', 'Jun']}
 	tableData = {[
 	  {
         average: 'High',
@@ -102,7 +102,7 @@ const whenToComeSanFrancisco =
 	  	june: 11.6,					
 	  },
         {
-        average: 'Rainfall',
+        average: 'Rain',
 	  	january: 114,
 	  	february: 113, 
 	  	march: 83, 
@@ -113,7 +113,7 @@ const whenToComeSanFrancisco =
 	]}
 />
 <Table 
-	tableHeader = {['', 'July', 'August', 'September', 'October', 'November', 'December']}
+	tableHeader = {['C/mm', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']}
 	tableData = {[
 	  {
         average: 'High',
@@ -134,7 +134,7 @@ const whenToComeSanFrancisco =
 	  	december: 7.8,				
 	  },
       {
-        average: 'Rainfall',
+        average: 'Rain',
 	  	july: 0,
 	  	august: 2,
 	  	september: 5, 

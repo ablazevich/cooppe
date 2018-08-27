@@ -23,10 +23,10 @@ const back = "/san-francisco";
 const title = "Fisherman's Wharf Hotels";
 
 // Page title, must be 50–60 characters and unique across the site (optimal SEO length)
-const titleTag = "Example in Where To Stay Map Title tag";
+const titleTag = "Fisherman's Wharf Hotels";
 
 // Page description, must be 50–300 characters and unique across the site (optimal SEO length)
-const descriptionTag = "Example in Where To Stay Map Description Tag";
+const descriptionTag = "Fisherman's Wharf Hotels";
 
 const FishermansWharf = (
   <div>

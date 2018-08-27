@@ -5,7 +5,7 @@ const fishermansWharf = {
   markers: [
     {
       properties: {
-        tag: "Argonaut (354.5)",
+        tag: "Argonaut (4.5)",
         popUp: false,
         description: "",
         link: "http://www.argonauthotel.com/"
@@ -17,7 +17,7 @@ const fishermansWharf = {
     },
     {
       properties: {
-        tag: "Columbus Motor Inn (352.5)",
+        tag: "Columbus Motor Inn (2.5)",
         popUp: false,
         description: "",
         link: "http://www.columbusmotorinn.com/"
@@ -29,7 +29,7 @@ const fishermansWharf = {
     },
     {
       properties: {
-        tag: "Courtyard (353)",
+        tag: "Courtyard (3)",
         popUp: false,
         description: "",
         link: "https://www.marriott.com/default.mi"
@@ -41,7 +41,7 @@ const fishermansWharf = {
     },
     {
       properties: {
-        tag: "Fairmont Heritage Place (355)",
+        tag: "Fairmont Heritage Place (5)",
         popUp: false,
         description: "",
         link: "https://www.fairmont.com/"
@@ -53,7 +53,7 @@ const fishermansWharf = {
     },
     {
       properties: {
-        tag: "Holiday Inn Express and Suites (352.5)",
+        tag: "Holiday Inn Express and Suites (2.5)",
         popUp: false,
         description: "",
         link: "https://www.ihg.com/hotels/us/en/reservation"
@@ -65,7 +65,7 @@ const fishermansWharf = {
     },
     {
       properties: {
-        tag: "Hyatt Centric (354)",
+        tag: "Hyatt Centric (4)",
         popUp: false,
         description: "",
         link: "https://www.hyatt.com/"
@@ -77,7 +77,7 @@ const fishermansWharf = {
     },
     {
       properties: {
-        tag: "Marriott (353.5)",
+        tag: "Marriott (3.5)",
         popUp: false,
         description: "",
         link: "https://www.marriott.com/default.mi"
@@ -89,7 +89,7 @@ const fishermansWharf = {
     },
     {
       properties: {
-        tag: "San Remo (352)",
+        tag: "San Remo (2)",
         popUp: false,
         description: "",
         link: "https://sanremohotel.business.site/"
@@ -101,7 +101,7 @@ const fishermansWharf = {
     },
     {
       properties: {
-        tag: "Sheraton (354)",
+        tag: "Sheraton (4)",
         popUp: false,
         description: "",
         link: "http://www.sheratonatthewharf.com/"
@@ -113,7 +113,7 @@ const fishermansWharf = {
     },
     {
       properties: {
-        tag: "The Suites (353)",
+        tag: "The Suites (3)",
         popUp: false,
         description: "",
         link: "https://www.extraholidays.com/"
@@ -125,7 +125,7 @@ const fishermansWharf = {
     },
     {
       properties: {
-        tag: "The Wharf Inn (352)",
+        tag: "The Wharf Inn (2)",
         popUp: false,
         description: "",
         link: "http://www.wharfinn.com/"
@@ -137,7 +137,7 @@ const fishermansWharf = {
     },
     {
       properties: {
-        tag: "Travelodge (352)",
+        tag: "Travelodge (2)",
         popUp: false,
         description: "",
         link: "https://www.wyndhamhotels.com/"
@@ -149,7 +149,7 @@ const fishermansWharf = {
     },
     {
       properties: {
-        tag: "Zephyr (353.5)",
+        tag: "Zephyr (3.5)",
         popUp: false,
         description: "",
         link: "https://www.hotelzephyrsf.com/"
