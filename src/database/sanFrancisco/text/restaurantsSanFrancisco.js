@@ -65,7 +65,9 @@ const restaurantsSanFrancisco = (
       and{" "}
       <A href="http://zapizzasf.com/" target="_blank" rel="noopener noreferrer">Za Pizza</A>.
     </Paragraph>
-    <Paragraph>
+
+    <h3>Moderately Expensive ($$) 
+    {" "}
     <Link to="/san-francisco/inexpensive">
       <FlatButton
         style={{
@@ -76,9 +78,7 @@ const restaurantsSanFrancisco = (
         MAP
       </FlatButton>
     </Link>
-    </Paragraph>
-
-    <h3>Moderately Expensive ($$)</h3>
+    </h3>
     <Paragraph>
       <A href="https://www.abvsf.com/" target="_blank" rel="noopener noreferrer">ABV</A>{" "}(American),{" "}
       <A href="http://akikosrestaurant.com/" target="_blank" rel="noopener noreferrer">Akiko’s Restaurant</A>{" "}(Japanese),{" "}

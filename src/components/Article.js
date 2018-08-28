@@ -27,7 +27,6 @@ class Article extends Component {
             back={this.props.decrease}
             database={this.props.database}
           />
-          <Title tag={this.props.title} />
           <Content
             city={this.props.identifier}
             database={this.props.database}

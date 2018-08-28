@@ -39,7 +39,11 @@ class Cartography extends Component {
   }
   render() {
     return (
-      <MapContainer>
+      <MapContainer 
+        style={{
+          position: "relative",
+          border: "5px solid black",
+        }}>
         <Map
           defaultCenter={[
             this.props.geojson.center[0],
@@ -68,16 +72,13 @@ class Cartography extends Component {
                   this.state.markersArray[index].geometry.coordinates[1]
                 ]}
               >
-                <div
-                  style={{
-                    width: "1px",
-                    height: "1px"
-                  }}
-                >
+                <div>
                   <img
+                    src={this.state.marker}
+                    alt="map marker"
                     id={imgId}
                     onClick={index => {
-                      var popUpArrayVar = [];
+                      var popUpArrayVar = [];                   
                       this.state.popUpArray.map((currentItem, currentIndex) => {
                         if (currentIndex !== imgId) {
                           popUpArrayVar.push(false);
@@ -89,6 +90,10 @@ class Cartography extends Component {
                     }}
                     style={{
                       width: "22px",
+                      position: "absolute",
+                      border: this.state.popUpArray[index] === false
+                        ? "0"
+                        : "5px solid yellowgreen",
                       height: "40px",
                       transformOrigin: "center bottom",
                       transform:
@@ -97,16 +102,17 @@ class Cartography extends Component {
                           : "translate(-45%, -85%) scale(1.05)",
                       cursor: "pointer"
                     }}
-                    src={this.state.marker}
-                    alt="map marker"
                   />
                 </div>
                 <div
                   style={{
+                    position: "absolute",
+                    bottom: "50px",
+                    left: "-150px",
                     boxSizing: "border-box",
+                    zIindex: "999999",
                     padding: "15px",
                     backgroundColor: "white",
-                    transform: "translate(-50%, -150%)",
                     borderRadius: "10px",
                     cursor: "default",
                     textAlign: "center",

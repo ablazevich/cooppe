@@ -7,8 +7,11 @@ const Paragraph = glamorous.div({
 });
 
 const A = glamorous.a({
-  color: "lightblue",
-  textDecoration: "none"
+  color: "steelblue",
+  textDecoration: "none",
+  ':hover': {
+    textDecoration: "underline",
+  }
 });
 
 export { Paragraph, A };

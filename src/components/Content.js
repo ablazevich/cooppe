@@ -5,7 +5,10 @@ import React from "react";
 import glamorous from "glamorous";
 
 const ContentContainer = glamorous.div({
-  padding: "10px 2% 20px 2%"
+  padding: "10px 2% 20px 2%",
+  ':first-child': {
+    margin: "64px 0 0 0"
+  }
 });
 
 class Content extends React.Component {
@@ -14,7 +17,7 @@ class Content extends React.Component {
       const sections = Object.entries(this.props.database[this.props.city]);
       const content = sections.map((item, index) => (
         <ContentContainer key={item[0]}>
-          <h2 className={item[0].replace(/\s/g, "")}>{item[0]}</h2>
+          <h2 id={index === 0 ? "top" : null} className={item[0].replace(/\s/g, "")}>{item[0]}</h2>
           {item[1]}
         </ContentContainer>
       ));

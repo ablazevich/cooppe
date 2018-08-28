@@ -3,7 +3,6 @@ import React from "react";
 
 // Images
 import logo from "../assets/logo.png";
-import drawerHeader from "../assets/drawerHeader.png";
 
 // Router
 import { Link } from "react-router-dom";
@@ -37,12 +36,21 @@ const Title = glamorous.div({
 });
 
 const TitleText = glamorous.h1({
+  display: "flex",
+  alignItems: "baseline",
   margin: "0 0 0 10px",
   fontFamily: '"Oswald", sans-serif',
   fontWeight: "200",
   fontSize: "45px",
-  transform: 'translateY(-5px)'
+  lineHeight: "50px"
 });
+
+const TitleTextCity = glamorous.h2({
+  fontSize: "25px",
+  fontWeight: "200",
+  margin: "0 0 0 10px"
+});
+
 
 const TitleTextPe = glamorous.span({
   fontWeight: "500"
@@ -85,7 +93,7 @@ class AppBarIcon extends React.Component {
                   margin: "0 0 0 5px"
                 }}
               >
-                <i className="material-icons">bookmark</i>
+                <i className="material-icons">menu</i>
               </IconButton>
             )
           }
@@ -103,12 +111,11 @@ class AppBarIcon extends React.Component {
                   transform: "translate(-30px)"
                 }}
               >
-                <img src={logo} alt="Cooppe logo" height="40" width="40" />
-
                 <TitleText>
                   coop<TitleTextPe>pe</TitleTextPe>
-                </TitleText>
-              </Title>
+                  <TitleTextCity>{this.props.city}</TitleTextCity>
+                </TitleText>                
+              </Title>       
             </Link>
           }
           onLeftIconButtonClick={this.props.onIconClick}
@@ -145,7 +152,7 @@ class DrawerMenu extends React.Component {
             open={this.props.isDrawerOpened}
             onRequestChange={this.props.outsideClick}
             docked={false}
-            width={300}
+            width={250}
           >
             {drawerSections}
           </Drawer>
@@ -173,6 +180,7 @@ export default class Navigation extends React.Component {
           depth={this.props.city}
           return={this.props.back}
           onIconClick={this.props.city === "inner" ? null : this.handleToggle}
+          city={this.props.city}
         />
         <DrawerMenu
           isDrawerOpened={this.state.drawerOpened}

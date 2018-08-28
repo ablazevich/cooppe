@@ -53,18 +53,6 @@ const fishermansWharf = {
     },
     {
       properties: {
-        tag: "Holiday Inn Express and Suites (2.5)",
-        popUp: false,
-        description: "",
-        link: "https://www.ihg.com/hotels/us/en/reservation"
-      },
-      geometry: {
-        type: "Point",
-        coordinates: [37.806630,-122.416420]
-      }
-    },
-    {
-      properties: {
         tag: "Hyatt Centric (4)",
         popUp: false,
         description: "",
@@ -158,7 +146,19 @@ const fishermansWharf = {
         type: "Point",
         coordinates: [37.807763,-122.413222]
       }
-    }
+    },
+    {
+      properties: {
+        tag: "Holiday Inn Express and Suites (2.5)",
+        popUp: false,
+        description: "",
+        link: "https://www.ihg.com/hotels/us/en/reservation"
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [37.806630,-122.416420]
+      }
+    },
   ]
 };
 

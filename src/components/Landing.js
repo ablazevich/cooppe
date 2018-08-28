@@ -4,12 +4,9 @@ import React from "react";
 // Theme
 import muiTheme from "../muiTheme";
 
-// Images
-import logo from "../assets/logo.png";
-
 // Database
 import aboutUs from "../database/aboutUs/aboutUs";
-import termsAndConditions from "../database/termsAndConditions/termsAndConditions";
+import contact from "../database/contact/contact";
 
 // Custom components
 import Modal from "./Modal";
@@ -98,7 +95,6 @@ class Landing extends React.Component {
           descriptionTag={this.props.descriptionTag}
         />
         <LandingCenter>
-          <LandingLogo src={logo} alt="Cooppe logo" />
           <TitleText>
             coop<TitleTextPe>pe</TitleTextPe>
           </TitleText>
@@ -123,9 +119,8 @@ class Landing extends React.Component {
             })}
           </LinkContainer>
           <Disclamer>
-            Disclamer and copytight, link to{" "}
-            <Modal title="Terms and Conditions">
-              <div>{termsAndConditions}</div>
+            <Modal title="Contact">
+              <div>{contact}</div>
             </Modal>{" "}
             and{" "}
             <Modal title="About Us">

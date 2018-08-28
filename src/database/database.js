@@ -14,7 +14,7 @@
 // import inWhereToStayLosAngeles from "./losAngeles/text/inLosAngeles/whereToStayLosAngeles/inWhereToStayLosAngeles";
 // San Francisco
 import inSanFrancisco from "./sanFrancisco/sanFrancisco";
-import inGeneralInformationSanFrancisco from "./sanFrancisco/text/inSanFrancisco/generalInformationSanFrancisco/inGeneralInformationSanFrancisco";
+import inVisitOrNotSanFrancisco from "./sanFrancisco/text/inSanFrancisco/visitOrNotSanFrancisco/inVisitOrNotSanFrancisco";
 import inWhenToComeSanFrancisco from "./sanFrancisco/text/inSanFrancisco/whenToComeSanFrancisco/inWhenToComeSanFrancisco";
 import inAttractionsCloseBySanFrancisco from "./sanFrancisco/text/inSanFrancisco/attractionsCloseBySanFrancisco/inAttractionsCloseBySanFrancisco";
 import inAttractionsFartherAwaySanFrancisco from "./sanFrancisco/text/inSanFrancisco/attractionsFartherAwaySanFrancisco/inAttractionsFartherAwaySanFrancisco";
@@ -34,7 +34,7 @@ const level1 = {
 
 const inner = [
   // Los Angeles
-  // inGeneralInformationLosAngeles,
+  // inVisitOrNotLosAngeles,
   // inWhenToComeLosAngeles,
   // inAttractionsFartherAwayLosAngeles,
   // inDangersAndAnnoyancesLosAngeles,
@@ -47,7 +47,7 @@ const inner = [
   // inWhereToStayLosAngeles,
   // inAttractionsCloseByLosAngeles,
   // San Francisco
-  inGeneralInformationSanFrancisco,
+  inVisitOrNotSanFrancisco,
   inWhenToComeSanFrancisco,
   inAttractionsFartherAwaySanFrancisco,
   inDangersAndAnnoyancesSanFrancisco,

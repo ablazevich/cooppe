@@ -29,7 +29,7 @@ class Arrow extends React.Component {
       <ArrowContainer
         onClick={() =>
           jump("#top", {
-            offset: -64
+            offset: -90
           })
         }
       >

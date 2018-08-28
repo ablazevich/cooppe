@@ -1,10 +1,6 @@
 /// React component
 import React, { Component } from "react";
 
-/// Theme
-import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
-import muiTheme from "./muiTheme";
-
 /// Router
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
