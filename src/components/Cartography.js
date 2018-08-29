@@ -39,11 +39,7 @@ class Cartography extends Component {
   }
   render() {
     return (
-      <MapContainer 
-        style={{
-          position: "relative",
-          border: "5px solid black",
-        }}>
+      <MapContainer>
         <Map
           defaultCenter={[
             this.props.geojson.center[0],
@@ -70,7 +66,7 @@ class Cartography extends Component {
                 anchor={[
                   this.state.markersArray[index].geometry.coordinates[0],
                   this.state.markersArray[index].geometry.coordinates[1]
-                ]}
+                ]}               
               >
                 <div>
                   <img
@@ -91,9 +87,6 @@ class Cartography extends Component {
                     style={{
                       width: "22px",
                       position: "absolute",
-                      border: this.state.popUpArray[index] === false
-                        ? "0"
-                        : "5px solid yellowgreen",
                       height: "40px",
                       transformOrigin: "center bottom",
                       transform:
@@ -103,7 +96,19 @@ class Cartography extends Component {
                       cursor: "pointer"
                     }}
                   />
-                </div>
+                </div>               
+              </Overlay>
+                );
+              })}
+              {this.state.markersArray.map((item, index) => {
+              return (
+              <Overlay
+                key={index + 1000}
+                anchor={[
+                  this.state.markersArray[index].geometry.coordinates[0],
+                  this.state.markersArray[index].geometry.coordinates[1]
+                ]}  
+              >
                 <div
                   style={{
                     position: "absolute",
@@ -127,8 +132,8 @@ class Cartography extends Component {
                   </a>
                 </div>
               </Overlay>
-            );
-          })}
+              );
+            })}    
         </Map>
       </MapContainer>
     );
