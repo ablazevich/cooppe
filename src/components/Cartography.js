@@ -10,7 +10,8 @@ import glamorous from "glamorous";
 
 const MapContainer = glamorous.div({
   width: "100%",
-  overflowX: "hidden"
+  overflowX: "hidden",
+  margin: "75px 0 0 0"
 });
 
 class Cartography extends Component {
@@ -47,9 +48,9 @@ class Cartography extends Component {
           ]}
           zoom={this.state.zoomHandler}
           width={this.state.viewportWidth}
-          height={600}
-          zoomOnMouseWheel={false}
-          mouseWheelMetaText={null}
+          height={window.innerHeight - 197}
+          zoomOnMouseWheel={true}
+          mouseWheelMetaText={"use mouse wheel to zoom"}
           onClick={() => {
             var popUpArrayVar = [];
             this.state.popUpArray.map(() => {
@@ -103,7 +104,7 @@ class Cartography extends Component {
               {this.state.markersArray.map((item, index) => {
               return (
               <Overlay
-                key={index + 1000}
+                key={index}
                 anchor={[
                   this.state.markersArray[index].geometry.coordinates[0],
                   this.state.markersArray[index].geometry.coordinates[1]
@@ -112,23 +113,24 @@ class Cartography extends Component {
                 <div
                   style={{
                     position: "absolute",
-                    bottom: "50px",
-                    left: "-150px",
+                    width: "200px",
+                    bottom: "40px",
+                    left: "-100px",
+                    wordBreak: "keep-all",
                     boxSizing: "border-box",
-                    zIindex: "999999",
                     padding: "15px",
                     backgroundColor: "white",
                     borderRadius: "10px",
                     cursor: "default",
                     textAlign: "center",
-                    lineHeight: "28px",
                     display:
-                      this.state.popUpArray[index] === false ? "none" : "block"
+                      this.state.popUpArray[index] === false ? "none" : "inline"
                   }}
                 >
-                  {this.state.markersArray[index].properties.tag} <br />{" "}
-                  <a href={this.state.markersArray[index].properties.link}>
-                    {this.state.markersArray[index].properties.link}
+                  <a href={this.state.markersArray[index].properties.link} target="_blank">
+                    <div>
+                      {this.state.markersArray[index].properties.tag}
+                    </div>
                   </a>
                 </div>
               </Overlay>

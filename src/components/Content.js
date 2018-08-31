@@ -4,6 +4,10 @@ import React from "react";
 // Glamorous
 import glamorous from "glamorous";
 
+// Material UI components
+import Dialog from "material-ui/Dialog";
+import { Divider } from "material-ui";
+
 const ContentContainer = glamorous.div({
   padding: "10px 2% 20px 2%",
   ':first-child': {
@@ -18,6 +22,7 @@ class Content extends React.Component {
       const content = sections.map((item, index) => (
         <ContentContainer key={item[0]}>
           <h2 id={index === 0 ? "top" : null} className={item[0].replace(/\s/g, "")}>{item[0]}</h2>
+          <Divider />
           {item[1]}
         </ContentContainer>
       ));

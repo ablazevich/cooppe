@@ -6,7 +6,7 @@ import muiTheme from "../muiTheme";
 
 // Database
 import aboutUs from "../database/aboutUs/aboutUs";
-import contact from "../database/contact/contact";
+import contactUs from "../database/contactUs/contactUs";
 
 // Custom components
 import Modal from "./Modal";
@@ -53,18 +53,13 @@ const TitleText = glamorous.h1({
   margin: "0 0 0 10px",
   fontFamily: '"Oswald", sans-serif',
   fontWeight: "200",
-  fontSize: "70px",
+  fontSize: "120px",
   margin: "0 0 5px 0",
   color: "white"
 });
 
 const TitleTextPe = glamorous.span({
   fontWeight: "500"
-});
-
-const Slogan = glamorous.div({
-  color: "white",
-  margin: "0 0 30px 0"
 });
 
 const LinkContainer = glamorous.div({
@@ -98,7 +93,6 @@ class Landing extends React.Component {
           <TitleText>
             coop<TitleTextPe>pe</TitleTextPe>
           </TitleText>
-          <Slogan>Cooperative People</Slogan>
           <LinkContainer>
             {this.props.cities.map((item, index) => {
               return (
@@ -119,8 +113,8 @@ class Landing extends React.Component {
             })}
           </LinkContainer>
           <Disclamer>
-            <Modal title="Contact">
-              <div>{contact}</div>
+            <Modal title="Contact us">
+              <div>{contactUs}</div>
             </Modal>{" "}
             and{" "}
             <Modal title="About Us">

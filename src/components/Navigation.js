@@ -113,7 +113,7 @@ class AppBarIcon extends React.Component {
               >
                 <TitleText>
                   coop<TitleTextPe>pe</TitleTextPe>
-                  <TitleTextCity>{this.props.city}</TitleTextCity>
+                  <TitleTextCity>{this.props.city === "inner" ? null : this.props.city}</TitleTextCity>
                 </TitleText>                
               </Title>       
             </Link>

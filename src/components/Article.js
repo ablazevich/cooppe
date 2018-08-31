@@ -9,7 +9,7 @@ import muiTheme from "../muiTheme";
 import Navigation from "./Navigation";
 import Arrow from "./Arrow";
 import Footer from "./Footer";
-import Title from "./Title";
+// import Title from "./Title";
 import Content from "./Content";
 import Meta from "./Meta";
 

@@ -12,3 +12,7 @@ a {
 #mapid {
   height: 180px;
 }
+
+.pigeon-attribution {
+  transform: translateX(-50%)
+}
