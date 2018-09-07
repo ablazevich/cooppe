@@ -113,10 +113,9 @@ class Landing extends React.Component {
             })}
           </LinkContainer>
           <Disclamer>
-            <Modal title="Contact us">
+            <Modal title="Contact Us">
               <div>{contactUs}</div>
-            </Modal>{" "}
-            and{" "}
+            </Modal>{" "} - {" "}
             <Modal title="About Us">
               <div>{aboutUs}</div>
             </Modal>

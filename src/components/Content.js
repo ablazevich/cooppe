@@ -5,7 +5,6 @@ import React from "react";
 import glamorous from "glamorous";
 
 // Material UI components
-import Dialog from "material-ui/Dialog";
 import { Divider } from "material-ui";
 
 const ContentContainer = glamorous.div({

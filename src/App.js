@@ -21,7 +21,7 @@ class App extends Component {
             path="/"
             exact
             sensitive
-            render={props => (
+            render={() => (
               <Landing
                 // Page title, must be 50–60 characters and unique across the site (optimal SEO length)
                 titleTag={"cooppe"}
@@ -72,7 +72,7 @@ class App extends Component {
                 path={inner[index][index2][1]}
                 exact
                 sensitive
-                render={props => (
+                render={() => (
                   <Article
                     identifier={"inner"}
                     title={inner[index][index2][2]}

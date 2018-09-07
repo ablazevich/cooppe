@@ -1,5 +1,5 @@
 // URLs
-import foodStoresMap from "./urls/FoodStores";
+import foodStoresMap from "./urls/inFoodStores";
 
 // Add every inner page created for this section
 const inFoodStoresSanFrancisco = [foodStoresMap];

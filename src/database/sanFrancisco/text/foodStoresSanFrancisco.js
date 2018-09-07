@@ -18,7 +18,7 @@ const foodStoresSanFrancisco = (
     </Paragraph>
 
     <Paragraph>
-    <Link to="/san-francisco/things-to-do">
+    <Link to="/san-francisco/food-stores">
       <FlatButton
         style={{
           backgroundColor: "lightgrey",

@@ -48,7 +48,7 @@ class Cartography extends Component {
           ]}
           zoom={this.state.zoomHandler}
           width={this.state.viewportWidth}
-          height={window.innerHeight - 197}
+          height={window.innerHeight - 137}
           zoomOnMouseWheel={true}
           mouseWheelMetaText={"use mouse wheel to zoom"}
           onClick={() => {
@@ -74,7 +74,7 @@ class Cartography extends Component {
                     src={this.state.marker}
                     alt="map marker"
                     id={imgId}
-                    onClick={index => {
+                    onClick={() => {
                       var popUpArrayVar = [];                   
                       this.state.popUpArray.map((currentItem, currentIndex) => {
                         if (currentIndex !== imgId) {
@@ -102,6 +102,7 @@ class Cartography extends Component {
                 );
               })}
               {this.state.markersArray.map((item, index) => {
+              var imgId = index;
               return (
               <Overlay
                 key={index}
@@ -127,7 +128,22 @@ class Cartography extends Component {
                       this.state.popUpArray[index] === false ? "none" : "inline"
                   }}
                 >
-                  <a href={this.state.markersArray[index].properties.link} target="_blank">
+                  <a 
+                    href={this.state.markersArray[index].properties.link} 
+                    target="_blank"
+                    id={imgId}
+                    onClick={() => {
+                      var popUpArrayVar = [];                   
+                      this.state.popUpArray.map((currentItem, currentIndex) => {
+                        if (currentIndex !== imgId) {
+                          popUpArrayVar.push(false);
+                        } else {
+                          popUpArrayVar.push(true);
+                        }
+                      });
+                      this.setState({ popUpArray: popUpArrayVar });
+                    }}
+                  >
                     <div>
                       {this.state.markersArray[index].properties.tag}
                     </div>

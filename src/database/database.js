@@ -20,6 +20,7 @@ import inAttractionsCloseBySanFrancisco from "./sanFrancisco/text/inSanFrancisco
 import inAttractionsFartherAwaySanFrancisco from "./sanFrancisco/text/inSanFrancisco/attractionsFartherAwaySanFrancisco/inAttractionsFartherAwaySanFrancisco";
 import inDangersAndAnnoyancesSanFrancisco from "./sanFrancisco/text/inSanFrancisco/dangersAndAnnoyancesSanFrancisco/inDangersAndAnnoyancesSanFrancisco";
 import inDrinksAndEntertainmentSanFrancisco from "./sanFrancisco/text/inSanFrancisco/drinksAndEntertainmentSanFrancisco/inDrinksAndEntertainmentSanFrancisco";
+import inFoodStoresSanFrancisco from "./sanFrancisco/text/inSanFrancisco/foodStoresSanFrancisco/inFoodStoresSanFrancisco";
 import inGettingArroundSanFrancisco from "./sanFrancisco/text/inSanFrancisco/gettingArroundSanFrancisco/inGettingArroundSanFrancisco";
 import inHowToGetHereSanFrancisco from "./sanFrancisco/text/inSanFrancisco/howToGetHereSanFrancisco/inHowToGetHereSanFrancisco";
 import inRestaurantsSanFrancisco from "./sanFrancisco/text/inSanFrancisco/restaurantsSanFrancisco/inRestaurantsSanFrancisco";
@@ -52,6 +53,7 @@ const inner = [
   inAttractionsFartherAwaySanFrancisco,
   inDangersAndAnnoyancesSanFrancisco,
   inDrinksAndEntertainmentSanFrancisco,
+  inFoodStoresSanFrancisco,
   inGettingArroundSanFrancisco,
   inHowToGetHereSanFrancisco,
   inRestaurantsSanFrancisco,

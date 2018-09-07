@@ -1,9 +1,6 @@
 // React
 import React from "react";
 
-// Images
-import logo from "../assets/logo.png";
-
 // Router
 import { Link } from "react-router-dom";
 

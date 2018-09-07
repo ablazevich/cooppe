@@ -4,21 +4,18 @@ import React from "react";
 // Jump
 import jump from "jump.js";
 
-// Theme
-import muiTheme from "../muiTheme";
-
 // Glamorous
 import glamorous from "glamorous";
 
 const ArrowContainer = glamorous.div({
-  backgroundColor: muiTheme.palette.tertiary1Color,
+  backgroundColor: "lightgrey",
   borderRadius: "100%",
   maxWidth: "50px",
   padding: "9px 9px 5px 9px",
   position: "fixed",
   bottom: "5vw",
   right: "5vw",
-  color: "white",
+  color: "black",
   boxShadow: "0px 4px 13px -6px rgba(0, 0, 0, 0.75)",
   cursor: "pointer"
 });
