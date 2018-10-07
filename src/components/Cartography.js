@@ -11,12 +11,13 @@ import glamorous from "glamorous";
 const MapContainer = glamorous.div({
   width: "100%",
   overflowX: "hidden",
-  margin: "50px 0 0 0"
+  margin: "60px 0 0 0"
 });
 
 const H2 = glamorous.h2({
   margin: "0",
-  padding: "10px 0 5px 0"
+  padding: "10px 0 5px 0",
+  fontWeight: "normal"
 });
 
 class Cartography extends Component {
