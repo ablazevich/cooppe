@@ -14,12 +14,6 @@ const MapContainer = glamorous.div({
   margin: "60px 0 0 0"
 });
 
-const H2 = glamorous.h2({
-  margin: "0",
-  padding: "10px 0 5px 0",
-  fontWeight: "normal"
-});
-
 class Cartography extends Component {
   constructor(props) {
     super(props);
@@ -47,7 +41,6 @@ class Cartography extends Component {
   render() {
     return (
       <MapContainer>
-        <H2>{this.props.title}</H2>
         <Map
           defaultCenter={[
             this.props.geojson.center[0],
