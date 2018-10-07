@@ -1,7 +1,7 @@
 // http://geojson.io/#map=2/20.0/0.0
 
 const unionSquare = {
-  center: [37.7888529519201,-122.40870237350462],       
+  center: [37.78994669906211,-122.40868091583252],       
   markers: [
     {
       properties: {

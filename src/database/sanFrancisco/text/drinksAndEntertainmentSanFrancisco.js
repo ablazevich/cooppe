@@ -12,19 +12,7 @@ import { Paragraph, A } from "../../textStyle";
 
 const drinksAndEntertainmentSanFrancisco = (
 	<div>
-    <h3>Coffee and Tea
-    {" "}
-    <Link to="/san-francisco/coffee-tea">
-      <FlatButton
-        style={{
-          backgroundColor: "lightgrey",
-          fontWeight: "500"
-        }}
-      >
-        MAP
-      </FlatButton>
-    </Link>
-    </h3>
+    <h3>Coffee and Tea</h3>
     <Paragraph> 
       Beanstalk Cafe,{" "}
       <A href="http://coffee.caffetrieste.com/" target="_blank" rel="noopener noreferrer">Caffe Trieste</A>,{" "}
@@ -44,10 +32,8 @@ const drinksAndEntertainmentSanFrancisco = (
       YakiniQ Cafe and{" "}
       <A href="http://zo11coffee.com/" target="_blank" rel="noopener noreferrer">Zo11 Coffee</A>.
     </Paragraph>
-
-    <h3>Bars and Pubs
-    {" "}
-    <Link to="/san-francisco/bars-pubs">
+    <Paragraph>
+    <Link to="/san-francisco/coffee-tea">
       <FlatButton
         style={{
           backgroundColor: "lightgrey",
@@ -57,7 +43,8 @@ const drinksAndEntertainmentSanFrancisco = (
         MAP
       </FlatButton>
     </Link>
-    </h3>
+    </Paragraph>
+    <h3>Bars and Pubs</h3>
     <Paragraph>
       <A href="https://www.abvsf.com/" target="_blank" rel="noopener noreferrer">ABV</A>{" "}(Cocktails),{" "}
       <A href="http://www.bar587.com/" target="_blank" rel="noopener noreferrer">Bar 587</A>{" "}(Cocktails),{" "}
@@ -102,11 +89,9 @@ const drinksAndEntertainmentSanFrancisco = (
       <A href="http://www.toronado.com/" target="_blank" rel="noopener noreferrer">Toronado Pub</A>{" "}
       and{" "}
       <A href="http://www.zeitgeistsf.com/" target="_blank" rel="noopener noreferrer">Zeitgeist</A>{" "}(Dive bar).
-    </Paragraph>   
-    
-    <h3>Clubs and Lounges
-    {" "}
-    <Link to="/san-francisco/clubs-lounges">
+    </Paragraph>
+    <Paragraph>
+    <Link to="/san-francisco/bars-pubs">
       <FlatButton
         style={{
           backgroundColor: "lightgrey",
@@ -115,8 +100,9 @@ const drinksAndEntertainmentSanFrancisco = (
       >
         MAP
       </FlatButton>
-    </Link>
-    </h3>
+    </Link> 
+    </Paragraph>
+    <h3>Clubs and Lounges</h3>
     <Paragraph>
       <A href="https://audiosf.com/" target="_blank" rel="noopener noreferrer">Audio Discotech</A>,{" "}
       <A href="http://www.bimbos365club.com/" target="_blank" rel="noopener noreferrer">Bimbo’s 365 Club</A>,{" "}
@@ -141,6 +127,18 @@ const drinksAndEntertainmentSanFrancisco = (
       <A href="http://www.grandnightclub.com/" target="_blank" rel="noopener noreferrer">The Grand</A>{" "}
       and{" "}
       <A href="http://www.theindependentsf.com/" target="_blank" rel="noopener noreferrer">The Independent</A>.
+    </Paragraph>
+    <Paragraph>
+    <Link to="/san-francisco/clubs-lounges">
+      <FlatButton
+        style={{
+          backgroundColor: "lightgrey",
+          fontWeight: "500"
+        }}
+      >
+        MAP
+      </FlatButton>
+    </Link>
     </Paragraph>
   </div>
 	);

@@ -12,19 +12,7 @@ import { Paragraph, A } from "../../textStyle";
 
 const restaurantsSanFrancisco = (
   <div>
-    <h3>Inexpensive ($)
-    {" "}
-    <Link to="/san-francisco/inexpensive">
-      <FlatButton
-        style={{
-          backgroundColor: "lightgrey",
-          fontWeight: "500"
-        }}
-      >
-        MAP
-      </FlatButton>
-    </Link>
-    </h3>
+    <h3>Inexpensive ($)</h3>
     <Paragraph>
       <A href="http://www.alimentosf.com/" target="_blank" rel="noopener noreferrer">Alimento</A>,{" "}
       <A href="http://www.arizmendibakery.com/" target="_blank" rel="noopener noreferrer">Arizmendi Bakery</A>,{" "}
@@ -77,10 +65,8 @@ const restaurantsSanFrancisco = (
       and{" "}
       <A href="http://zapizzasf.com/" target="_blank" rel="noopener noreferrer">Za Pizza</A>.
     </Paragraph>
-
-    <h3>Moderately Expensive ($$) 
-    {" "}
-    <Link to="/san-francisco/moderate">
+    <Paragraph>
+    <Link to="/san-francisco/inexpensive">
       <FlatButton
         style={{
           backgroundColor: "lightgrey",
@@ -90,7 +76,8 @@ const restaurantsSanFrancisco = (
         MAP
       </FlatButton>
     </Link>
-    </h3>
+    </Paragraph>
+    <h3>Moderately Expensive ($$)</h3>
     <Paragraph>
       <A href="https://www.abvsf.com/" target="_blank" rel="noopener noreferrer">ABV</A>{" "}(American),{" "}
       <A href="http://akikosrestaurant.com/" target="_blank" rel="noopener noreferrer">Akiko’s Restaurant</A>{" "}(Japanese),{" "}
@@ -149,10 +136,8 @@ const restaurantsSanFrancisco = (
       and{" "}
       <A href="http://www.zerozerosf.com/" target="_blank" rel="noopener noreferrer">Zero Zero</A>{" "}(Italian).
     </Paragraph>
-
-    <h3>Expensive ($$$)
-    {" "}
-    <Link to="/san-francisco/expensive">
+    <Paragraph>
+    <Link to="/san-francisco/moderate">
       <FlatButton
         style={{
           backgroundColor: "lightgrey",
@@ -162,7 +147,8 @@ const restaurantsSanFrancisco = (
         MAP
       </FlatButton>
     </Link>
-    </h3>
+    </Paragraph>
+    <h3>Expensive ($$$)</h3>
     <Paragraph>
       <A href="https://www.a16pizza.com/" target="_blank" rel="noopener noreferrer">A 16</A>{" "}(Pizza),{" "}
       <A href="http://absinthe.com/" target="_blank" rel="noopener noreferrer">Absinthe Brasserie &#38; Bar</A>,{" "}
@@ -221,10 +207,8 @@ const restaurantsSanFrancisco = (
       <A href="http://wayfaretavern.com/"target="_blank"rel="noopener noreferrer">Wayfare Tavern</A>{" "}(American) and{" "}
       <A href="http://www.yanksing.com/home.php" target="_blank" rel="noopener noreferrer">Yank Sing</A>{" "}(Dim Sum).
     </Paragraph>
-
-    <h3>High End ($$$$)
-    {" "}
-    <Link to="/san-francisco/high-end">
+    <Paragraph>
+    <Link to="/san-francisco/expensive">
       <FlatButton
         style={{
           backgroundColor: "lightgrey",
@@ -234,7 +218,8 @@ const restaurantsSanFrancisco = (
         MAP
       </FlatButton>
     </Link>
-    </h3>
+    </Paragraph>
+    <h3>High End ($$$$)</h3>
     <Paragraph>
       <A href="http://www.alexanderssteakhouse.com/" target="_blank" rel="noopener noreferrer">Alexander’s Steakhouse</A>,{" "}
       <A href="http://sushiansf.com/" target="_blank" rel="noopener noreferrer">An Japanese Restaurant</A>,{" "}
@@ -257,10 +242,8 @@ const restaurantsSanFrancisco = (
       and{" "}
       <A href="http://www.rokaakor.com/" target="_blank" rel="noopener noreferrer">Roka Akor</A>.
     </Paragraph>
-
-    <h3>Michelin Rated
-    {" "}
-    <Link to="/san-francisco/michelin-rated">
+    <Paragraph>
+    <Link to="/san-francisco/high-end">
       <FlatButton
         style={{
           backgroundColor: "lightgrey",
@@ -270,7 +253,8 @@ const restaurantsSanFrancisco = (
         MAP
       </FlatButton>
     </Link>
-    </h3>
+    </Paragraph>
+    <h3>Michelin Rated</h3>
     <Paragraph>
       <A href="https://www.benusf.com/" target="_blank" rel="noopener noreferrer">Benu</A>{" "}(&#9733;&#9733;&#9733;),{" "}
       <A href="http://quincerestaurant.com/" target="_blank" rel="noopener noreferrer">Quince</A>{" "}(&#9733;&#9733;&#9733;),{" "}
@@ -305,7 +289,18 @@ const restaurantsSanFrancisco = (
       and{" "}
       <A href="http://www.sushiwakosf.com/" target="_blank" rel="noopener noreferrer">Wako</A>{" "}(&#9733; Japanese).
     </Paragraph>
-
+    <Paragraph>
+    <Link to="/san-francisco/michelin-rated">
+      <FlatButton
+        style={{
+          backgroundColor: "lightgrey",
+          fontWeight: "500"
+        }}
+      >
+        MAP
+      </FlatButton>
+    </Link>
+    </Paragraph>
     <h3>American New ($$)</h3>
     <Paragraph>
       <A href="https://www.abvsf.com/" target="_blank" rel="noopener noreferrer">ABV</A>,{" "}
@@ -328,7 +323,6 @@ const restaurantsSanFrancisco = (
       and{" "}
       <A href="http://www.thetipsypigsf.com/" target="_blank" rel="noopener noreferrer">The Tipsy Pig</A>.
     </Paragraph>
-    
     <h3>American New ($$$)</h3>
     <Paragraph>
       <A href="http://cockscombsf.com/" target="_blank" rel="noopener noreferrer">Cockscomb</A>,{" "}
@@ -345,7 +339,6 @@ const restaurantsSanFrancisco = (
       and{" "}
       <A href="http://trestlesf.com/" target="_blank" rel="noopener noreferrer">Trestle</A>.
     </Paragraph>
-    
     <h3>American Traditional ($$)</h3>
     <Paragraph>
       <A href="http://www.barneyshamburgers.com/" target="_blank" rel="noopener noreferrer">Barney’s Gourmet Hamburgers</A>,{" "}
@@ -380,7 +373,6 @@ const restaurantsSanFrancisco = (
       </FlatButton>
     </Link>
     </Paragraph>
-
     <h3>Chinese ($)</h3>
     <Paragraph>
       Delicious Dim Sum,{" "} 
@@ -399,7 +391,6 @@ const restaurantsSanFrancisco = (
       and{" "}
       Yan’s Kitchen.
     </Paragraph>
-    
     <h3>Chinese ($$)</h3>
     <Paragraph>
       Boiling Hot Pot,{" "}
@@ -424,20 +415,7 @@ const restaurantsSanFrancisco = (
       </FlatButton>
     </Link>
     </Paragraph>
-
-    <h3>Indian ($$)
-    {" "}
-    <Link to="/san-francisco/indian">
-      <FlatButton
-        style={{
-          backgroundColor: "lightgrey",
-          fontWeight: "500"
-        }}
-      >
-        MAP
-      </FlatButton>
-    </Link>
-    </h3>
+    <h3>Indian ($$)</h3>
     <Paragraph>
       <A href="http://www.august1five.com/" target="_blank" rel="noopener noreferrer">August 1 Five</A>,{" "}
       <A href="http://cafechaatsf.com/delivery.html" target="_blank" rel="noopener noreferrer">Chaat Corner</A>,{" "}
@@ -464,10 +442,8 @@ const restaurantsSanFrancisco = (
       and{" "}
       <A href="http://vivagoaindiancuisine.com/" target="_blank" rel="noopener noreferrer">Viva Goa</A>.
     </Paragraph>
-
-    <h3>Italian ($$)
-    {" "}
-    <Link to="/san-francisco/italian">
+    <Paragraph>
+    <Link to="/san-francisco/indian">
       <FlatButton
         style={{
           backgroundColor: "lightgrey",
@@ -477,7 +453,8 @@ const restaurantsSanFrancisco = (
         MAP
       </FlatButton>
     </Link>
-    </h3>
+    </Paragraph>
+    <h3>Italian ($$)</h3>
     <Paragraph>
       <A href="http://www.apertosf.com/" target="_blank" rel="noopener noreferrer">Aperto Restaurant</A>,{" "}
       <A href="http://www.caffebaonecci.com/" target="_blank" rel="noopener noreferrer" >Baonecci Ristorante</A>,{" "}
@@ -501,7 +478,18 @@ const restaurantsSanFrancisco = (
       and{" "}
       <A href="http://www.etuttoqua.com/no_flash.php" target="_blank" rel="noopener noreferrer">&#200; Tutto Qua</A>.
     </Paragraph>
-
+    <Paragraph>
+    <Link to="/san-francisco/italian">
+      <FlatButton
+        style={{
+          backgroundColor: "lightgrey",
+          fontWeight: "500"
+        }}
+      >
+        MAP
+      </FlatButton>
+    </Link>
+    </Paragraph>
     <h3>Japanese ($$)</h3>
     <Paragraph>
       <A href="http://akikosrestaurant.com/" target="_blank" rel="noopener noreferrer">Akiko’s Restaurant</A>,{" "}
@@ -532,7 +520,6 @@ const restaurantsSanFrancisco = (
       Wayo Sushi and{" "}
       <A href="http://www.warakuus.com/" target="_blank" rel="noopener noreferrer">Waraku</A>.
       </Paragraph>
-    
     <h3>Japanese ($$$)</h3>
     <Paragraph>
       <A href="http://www.sushikoo.com/" target="_blank" rel="noopener noreferrer">Koo</A>, 
@@ -556,7 +543,6 @@ const restaurantsSanFrancisco = (
       </FlatButton>
     </Link>
     </Paragraph>
-
     <h3>Mexican ($)</h3>
     <Paragraph>
       El Castillito,{" "}
@@ -569,7 +555,6 @@ const restaurantsSanFrancisco = (
       and{" "}
       <A href="http://www.taquerialoscoyotes.com/" target="_blank" rel="noopener noreferrer">Taqueria Los Coyotes</A>.
     </Paragraph>
-    
     <h3>Mexican ($$)</h3>
     <Paragraph>
       <A href="http://www.colibrimexicanbistro.com/" target="_blank" rel="noopener noreferrer">Colibri Mexican Bistro</A>,{" "}
@@ -603,20 +588,7 @@ const restaurantsSanFrancisco = (
       </FlatButton>
     </Link>
     </Paragraph>
-
-    <h3>Pizza ($$)
-    {" "}
-    <Link to="/san-francisco/pizza">
-      <FlatButton
-        style={{
-          backgroundColor: "lightgrey",
-          fontWeight: "500"
-        }}
-      >
-        MAP
-      </FlatButton>
-    </Link>
-    </h3>
+    <h3>Pizza ($$)</h3>
     <Paragraph>
       <A href="http://arinell-pizza.com/" target="_blank" rel="noopener noreferrer">Arinell Pizza</A>,{" "}
       <A href="http://www.caffebaonecci.com/" target="_blank" rel="noopener noreferrer">Baonecci Ristorante</A>,{" "}
@@ -640,7 +612,18 @@ const restaurantsSanFrancisco = (
       Victor’s Pizza{" "}and{" "}
       <A href="http://www.zerozerosf.com/" target="_blank" rel="noopener noreferrer">Zero Zero</A>.
     </Paragraph>
-
+    <Paragraph>
+    <Link to="/san-francisco/pizza">
+      <FlatButton
+        style={{
+          backgroundColor: "lightgrey",
+          fontWeight: "500"
+        }}
+      >
+        MAP
+      </FlatButton>
+    </Link>
+    </Paragraph>
     <h3>Seafood ($$)</h3>
     <Paragraph>
       <A href="http://aliotos.com/" target="_blank" rel="noopener noreferrer">Alioto’s Restaurant</A>,{" "}
@@ -669,7 +652,6 @@ const restaurantsSanFrancisco = (
       and{" "}
       <A href="http://www.zandyrestaurant.com/en/index.html?srccode=yelp_track" target="_blank" rel="noopener noreferrer">Z &#38; Y Restaurant</A>.
     </Paragraph>
-    
     <h3>Seafood ($$$)</h3>
     <Paragraph>
       <A href="http://anchorandhopesf.com/" target="_blank" rel="noopener noreferrer">Anchor &#38; Hope</A>,{" "}
@@ -699,20 +681,7 @@ const restaurantsSanFrancisco = (
       </FlatButton>
     </Link>
     </Paragraph>
-
-    <h3>Steakhouses ($$$)
-    {" "}
-    <Link to="/san-francisco/steakhouses">
-      <FlatButton
-        style={{
-          backgroundColor: "lightgrey",
-          fontWeight: "500"
-        }}
-      >
-        MAP
-      </FlatButton>
-    </Link>
-    </h3>
+    <h3>Steakhouses ($$$)</h3>
     <Paragraph>
       <A href="http://www.alfredssf.com/" target="_blank" rel="noopener noreferrer">Alfred’s Steakhouse</A>,{" "}
       <A href="http://www.boboquivaris.com/" target="_blank" rel="noopener noreferrer">Bobo’s</A>,{" "}
@@ -728,6 +697,18 @@ const restaurantsSanFrancisco = (
       and{" "}
       <A href="https://www.roysrestaurant.com/" target="_blank" rel="noopener noreferrer">Roy’s Restaurant</A>.
       </Paragraph>
+      <Paragraph>
+      <Link to="/san-francisco/steakhouses">
+      <FlatButton
+        style={{
+          backgroundColor: "lightgrey",
+          fontWeight: "500"
+        }}
+      >
+        MAP
+      </FlatButton>
+    </Link>
+    </Paragraph>
   </div>
 );
 

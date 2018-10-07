@@ -1,7 +1,7 @@
 // http://geojson.io/#map=2/20.0/0.0
 
 const thingsToDo = {
-  center: [37.77722770873696,-122.44657516479493],      
+  center: [37.789641468930114,-122.44348526000977],      
   markers: [
     {
       properties: {
