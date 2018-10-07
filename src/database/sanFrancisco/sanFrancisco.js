@@ -19,7 +19,7 @@ const inSanFrancisco = {
     "Getting arround": gettingArroundSanFrancisco,
     "Where to stay": whereToStaySanFrancisco,
     Restaurants: restaurantsSanFrancisco,
-    "Food Stores": foodStoresSanFrancisco,
+    "Food stores": foodStoresSanFrancisco,
     "Drinks and entertainment": drinksAndEntertainmentSanFrancisco,
     "Things to do": thingsToDoSanFrancisco,
     Shopping: shoppingSanFrancisco,
