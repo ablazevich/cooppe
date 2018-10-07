@@ -11,7 +11,7 @@ import glamorous from "glamorous";
 const MapContainer = glamorous.div({
   width: "100%",
   overflowX: "hidden",
-  margin: "60px 0 0 0"
+  margin: "75px 0 0 0"
 });
 
 class Cartography extends Component {
