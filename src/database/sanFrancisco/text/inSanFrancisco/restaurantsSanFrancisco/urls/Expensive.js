@@ -32,7 +32,7 @@ const Expensive = (
   <div>
     <Paragraph>
       <div>
-        <Cartography geojson={expensive} zoom={13} markerImg={marker} />
+        <Cartography geojson={expensive} zoom={13} markerImg={marker} title={title}/>
       </div>
     </Paragraph>
   </div>

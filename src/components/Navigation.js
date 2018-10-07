@@ -32,7 +32,7 @@ const Title = glamorous.div({
   justifyContent: "center"
 });
 
-const TitleText = glamorous.h1({
+const TitleText = glamorous.div({
   display: "flex",
   alignItems: "baseline",
   margin: "0 0 0 10px",

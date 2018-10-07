@@ -33,7 +33,7 @@ class Article extends Component {
             content={this.props.component}
           />
           {this.props.identifier !== "inner" ? <Arrow /> : null}
-          <Footer />
+          {this.props.identifier !== "inner" ? <Footer/> : null}
         </div>
       </MuiThemeProvider>
     );
